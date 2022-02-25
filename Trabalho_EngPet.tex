@@ -107,10 +107,10 @@
 \fancypagestyle{first}
 {
 \fancyhf{}
-\fancyfoot[RO]{\footnotesize \textit{CILAMCE-PANACM 2021 \\
-Proceedings of the XLII Ibero-Latin-American Congress on Computational Methods in Engineering and \\
-III Pan-American Congress on Computational Mechanics, ABMEC-IACM \\
-Rio de Janeiro, Brazil, November 9-12, 2021}}
+%\fancyfoot[RO]{\footnotesize \textit{CILAMCE-PANACM 2021 \\
+%Proceedings of the XLII Ibero-Latin-American Congress on Computational Methods in Engineering and \\
+%III Pan-American Congress on Computational Mechanics, ABMEC-IACM \\
+%Rio de Janeiro, Brazil, November 9-12, 2021}}
 \renewcommand{\headrulewidth}{.0pt}
 \renewcommand{\footrulewidth}{.5pt}
 }
@@ -118,15 +118,15 @@ Rio de Janeiro, Brazil, November 9-12, 2021}}
 \pagestyle{fancy}
 \fancyhf{}
 
-\fancyfoot[LE]{\footnotesize \textit{CILAMCE 2021-PANACM 2021 \\
-Proceedings of the XLII Ibero-Latin-American Congress on Computational Methods in Engineering and \\
-III Pan-American Congress on Computational Mechanics, ABMEC-IACM \\
-Rio de Janeiro, Brazil, November 9-12, 2021}}
+%\fancyfoot[LE]{\footnotesize \textit{CILAMCE 2021-PANACM 2021 \\
+%Proceedings of the XLII Ibero-Latin-American Congress on Computational Methods in Engineering and \\
+%III Pan-American Congress on Computational Mechanics, ABMEC-IACM \\
+%Rio de Janeiro, Brazil, November 9-12, 2021}}
 
-\fancyfoot[RO]{\footnotesize \textit{CILAMCE 2021-PANACM 2021 \\
-Proceedings of the XLII Ibero-Latin-American Congress on Computational Methods in Engineering and \\
-III Pan-American Congress on Computational Mechanics, ABMEC-IACM \\
-Rio de Janeiro, Brazil, November 9-12, 2021}}
+%\fancyfoot[RO]{\footnotesize \textit{CILAMCE 2021-PANACM 2021 \\
+%Proceedings of the XLII Ibero-Latin-American Congress on Computational Methods in Engineering and \\
+%III Pan-American Congress on Computational Mechanics, ABMEC-IACM \\
+%Rio de Janeiro, Brazil, November 9-12, 2021}}
 
 
 
@@ -136,7 +136,7 @@ Rio de Janeiro, Brazil, November 9-12, 2021}}
 
 % --------------------------------------------------------------------------
 % PLEASE, EDIT THIS!
-\fancyhead[LE]{\footnotesize \textit{Template file for CILAMCE-PANACM-2021 full-length paper (enter here with the short title of your paper)}}
+\fancyhead[LE]{\footnotesize \textit{Titulo}}
 \fancyhead[RO]{\footnotesize \textit{G. L. L. Santos, O. B. A. Rodrigues, J. P. L. Santos}}
 % --------------------------------------------------------------------------
 
@@ -148,9 +148,10 @@ Rio de Janeiro, Brazil, November 9-12, 2021}}
 
 \begin{figure}[ht!]
 \vspace{-30pt}
-\flushright
-\includegraphics[width=5.5cm]{Figures/logo}
-%scale=0.25
+%\flushright
+\center
+\includegraphics[width=15.0cm]{Figures/cab}
+\vspace{10pt}
 \end{figure}
 
 % --------------------------------------------------------------------------
@@ -195,22 +196,22 @@ This template file provides detailed formatting instructions for preparing your 
 % --------------------------------------------------------------------------
 \section{Introduction}\label{sec:introduction}
 % --------------------------------------------------------------------------
-O objetivo deste trabalho é avaliar a integridade de poços com base na avaliação de sistemas de barreiras de segurança, durante as atividades de perfuração do poço. 
-
-Com relação ao procedimento de perfuração, em poços de petróleo utilizam-se sondas de perfuração, que consistem em um conjunto de equipamentos, que podem variar quanto a sua tipologia \cite{cardoso}. A Figura \ref{fig: perf_esquema} ilustra um esquema geral da sonda na perfuração de poços. 
+O objetivo deste trabalho é avaliar a integridade de poços com base na avaliação de sistemas de barreiras de segurança, durante as atividades de perfuração do poço. Com relação ao procedimento de perfuração, em poços de petróleo utilizam-se sondas de perfuração, que consistem em um conjunto de equipamentos, que podem variar quanto a sua tipologia \cite{cardoso}. A Figura \ref{fig: perf_esquema} ilustra um esquema geral da sonda na perfuração de poços. 
 
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[scale=0.5]{Figures/perf_esquema2.pdf}
 \vspace{12pt}
-\caption{Esquema geral da sonda na perfuração}
+\caption{Esquema geral da sonda na perfuração \cite{perf_esquema}}
 \label{fig: perf_esquema}
 \end{center}
 \end{figure}
 \vspace{8pt}
 O poço é perfurado em várias fases, que são revestidas e formam as colunas de revestimento, iniciando com um tubo de pequena extensão e diâmetro maior que os posteriores. Para realizar a perfuração da fase, é necessário um conjunto de ferramentas que constitui a coluna de perfuração, tais como os tubos de perfuração e as brocas, além disso, utiliza-se o fluido de perfuração, também chamado de lama de perfuração. Estabilizar a parede da formação rochosa e carrear os cascalhos cortados pela broca são alguns dos objetivos do fluido de perfuração \cite{paranhos}.
 
-Para obter uma perfuração estável e segura, reduzindo problemas operacionais, é necessário manter o peso do fluido de perfuração maior que a pressão de poros e de colapso e menor que a pressão de fratura. Nesse contexto, se essa pressão no poço se tornar menor que a pressão na formação e, se esta possuir permeabilidade suficiente, acontecerá um kick, ou seja, um fluxo indesejado de fluido da formação para o interior do poço \cite{Iago}. De acordo com \cite{lindi2017analysis}, existem métodos de detecção de kick, tais como: um aumento na taxa de fluxo de retorno de lama; aumento da taxa de penetração e fluxo do poço com as bombas desligadas.
+Para obter uma perfuração estável e segura, reduzindo problemas operacionais, é necessário manter o peso do fluido de perfuração maior que a pressão de poros e de colapso e menor que a pressão de fratura. Nesse contexto, se essa pressão no poço se tornar menor que a pressão na formação e, se esta possuir permeabilidade suficiente, acontecerá um kick, ou seja, um fluxo indesejado de fluido da formação para o interior do poço \cite{Iago}. 
+
+De acordo com \cite{lindi2017analysis}, existem métodos de detecção de kick, tais como: um aumento na taxa de fluxo de retorno de lama; aumento da taxa de penetração e fluxo do poço com as bombas desligadas. Uma vez detectado o kick, métodos de controle são utilizados para reestabelecer o contróleo primário do poço, restaurando o equilíbrio hidrostático, pode-se citar os métodos convencionais (Método do Sondador, Método do Engenheiro e Métodos Volumétricos) e não convencionais (Bullheading, Stripping e Snubbing) \cite{Iago}.
 
 % --------------------------------------------------------------------------
 %\section{Revisão}\label{sec:revisão}%acho interessante não fazer essa seção, mas o conteúdo dela incluir na introdução
