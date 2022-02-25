@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  25 FEB 2022 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  25 FEB 2022 11:36
 entering extended mode
 **./Trabalho_EngPet.tex
 (Trabalho_EngPet.tex
@@ -485,7 +485,7 @@ Package pdftex.def Info: Figures/perf_esquema2.pdf  used on input line 204.
 
 {C:/Users/Lucas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/l
 ogo.jpg> <./Figures/perf_esquema2.pdf>]
-<Figures/Figure1.png, id=41, 222.8325pt x 216.81pt>
+<Figures/Figure1.png, id=42, 222.8325pt x 216.81pt>
 File: Figures/Figure1.png Graphic file (type png)
 <use Figures/Figure1.png>
 Package pdftex.def Info: Figures/Figure1.png  used on input line 269.
@@ -508,10 +508,10 @@ Package rerunfilecheck Info: File `Trabalho_EngPet.out' has not changed.
 (rerunfilecheck)             Checksum: 362CC4A3D09D79AD79CDC1AC1E4B60A6;236.
  ) 
 Here is how much of TeX's memory you used:
- 10238 strings out of 481277
- 172666 string characters out of 2906528
- 449135 words of memory out of 3000000
- 25571 multiletter control sequences out of 15000+200000
+ 10242 strings out of 481277
+ 172763 string characters out of 2906528
+ 450159 words of memory out of 3000000
+ 25574 multiletter control sequences out of 15000+200000
  543497 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,45p,1227b,355s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -525,9 +525,9 @@ Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lucas/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Luc
 as/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users
 /Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Trabalho_EngPet.pdf (3 pages, 336473 bytes).
+Output written on Trabalho_EngPet.pdf (3 pages, 337462 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 93 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
