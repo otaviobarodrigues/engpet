@@ -1,4 +1,4 @@
-%% --------------------------------------------------------------------------
+ %% --------------------------------------------------------------------------
 % LaTeX template for the XLII CILAMCE-PANACME.
 %
 % This latex document tries to copy the Microsoft Word template.
@@ -12,7 +12,7 @@
 \usepackage{indentfirst}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
-\usepackage[english]{babel}
+\usepackage[portuguese]{babel}
 \usepackage{parskip} 
 \usepackage{setspace}
 
@@ -172,7 +172,7 @@ Instructions for preparation and submission of full-papers for publication in th
 \vspace{18pt} % <- keep this vertical space!
 
 
-\noindent $^1$\textit{Laboratory of Scientific Computing and Visualization, Technology Center, Federal University of Alagoas \\LCCV/CTEC/UFAL}
+\noindent $^1$\textit{Laboratório de Computação Científica e Visualização, Centro de Tecnologia, Universidade Federal de Alagoas, LCCV/CTEC/UFAL}
 
 \noindent \textit{Campus A. C. Simoes, 57072-970, Maceió/Alagoas, Brazil}
 
@@ -185,16 +185,16 @@ Instructions for preparation and submission of full-papers for publication in th
 % ABSTRACT
 % --------------------------------------------------------------------------
 
-\noindent \textbf{Abstract.}
+\noindent \textbf{Resumo.}
 This template file provides detailed formatting instructions for preparing your full-length paper to the Proceedings of the joint CILAMCE-PANACM-2021 (XLII Ibero-Latin American Congress on Computational Methods in Engineering and III Pan-American Congress on Computational Mechanics). It is strongly recommended that you use the pre-defined styles of this template file, as they embed all necessary text formatting for the corresponding paragraph type. Full-length papers must be written in English.
 
 \vspace{18pt} % <- keep this vertical space!
 
-\noindent \textbf{Keywords:} First keyword, Second keyword, Third keyword (up to 5 keywords)
+\noindent \textbf{Palavras-chave:} First keyword, Second keyword, Third keyword (up to 5 keywords)
 
 
 % --------------------------------------------------------------------------
-\section{Introduction}\label{sec:introduction}
+\section{Introdução}\label{sec:introduction}
 % --------------------------------------------------------------------------
 O objetivo deste trabalho é avaliar a integridade de poços com base na avaliação de sistemas de barreiras de segurança, durante as atividades de perfuração do poço. Com relação ao procedimento de perfuração, em poços de petróleo utilizam-se sondas de perfuração, que consistem em um conjunto de equipamentos, que podem variar quanto a sua tipologia \cite{cardoso}. A Figura \ref{fig: perf_esquema} ilustra um esquema geral da sonda na perfuração de poços. 
 
@@ -202,16 +202,22 @@ O objetivo deste trabalho é avaliar a integridade de poços com base na avalia�
 \begin{center}
 \includegraphics[scale=0.5]{Figures/perf_esquema2.pdf}
 \vspace{12pt}
-\caption{Esquema geral da sonda na perfuração \cite{perf_esquema}}
+\caption{Esquema geral da sonda na perfuração. Fonte:  \citep{perf_esquema}.}
 \label{fig: perf_esquema}
 \end{center}
 \end{figure}
 \vspace{8pt}
+
 O poço é perfurado em várias fases, que são revestidas e formam as colunas de revestimento, iniciando com um tubo de pequena extensão e diâmetro maior que os posteriores. Para realizar a perfuração da fase, é necessário um conjunto de ferramentas que constitui a coluna de perfuração, tais como os tubos de perfuração e as brocas, além disso, utiliza-se o fluido de perfuração, também chamado de lama de perfuração. Estabilizar a parede da formação rochosa e carrear os cascalhos cortados pela broca são alguns dos objetivos do fluido de perfuração \cite{paranhos}.
 
-Para obter uma perfuração estável e segura, reduzindo problemas operacionais, é necessário manter o peso do fluido de perfuração maior que a pressão de poros e de colapso e menor que a pressão de fratura. Nesse contexto, se essa pressão no poço se tornar menor que a pressão na formação e, se esta possuir permeabilidade suficiente, acontecerá um kick, ou seja, um fluxo indesejado de fluido da formação para o interior do poço \cite{Iago}. 
+Para obter uma perfuração estável e segura, reduzindo problemas operacionais, é necessário manter o peso do fluido de perfuração maior que a pressão de poros e de colapso e menor que a pressão de fratura. Nesse contexto, se essa pressão no poço se tornar menor que a pressão na formação e, se esta possuir permeabilidade suficiente, acontecerá um $kick$, ou seja, um fluxo indesejado de fluido da formação para o interior do poço \cite{Iago}. 
 
-De acordo com \cite{lindi2017analysis}, existem métodos de detecção de kick, tais como: um aumento na taxa de fluxo de retorno de lama; aumento da taxa de penetração e fluxo do poço com as bombas desligadas. Uma vez detectado o kick, métodos de controle são utilizados para reestabelecer o contróleo primário do poço, restaurando o equilíbrio hidrostático, pode-se citar os métodos convencionais (Método do Sondador, Método do Engenheiro e Métodos Volumétricos) e não convencionais (Bullheading, Stripping e Snubbing) \cite{Iago}.
+De acordo com \cite{lindi2017analysis}, existem métodos de detecção de $kick$, tais como: um aumento na taxa de fluxo de retorno de lama; aumento da taxa de penetração e fluxo do poço com as bombas desligadas. Uma vez detectado o $kick$, métodos de controle são utilizados para reestabelecer o contróleo primário do poço, restaurando o equilíbrio hidrostático, pode-se citar os métodos convencionais (Método do Sondador, Método do Engenheiro e Métodos Volumétricos) e não convencionais (Bullheading, Stripping e Snubbing) \cite{Iago}.
+
+Se o fluxo indesejado da formação for incontrolável, tem-se um $blowout$ \citep{thomas2001fundamentos}. Segundo \citep{santana2021kick}, tal fenômeno é capaz de causar danos aos equipamentos da sonda, assim como lesões às pessoas que trabalham nela. Em 2010, por exemplo, um $blowout$ ao perfurar o poço de Macondo no golfo do México gerou incêndios e explosões na plataforma que levaram a morte de onze pessoas, além do vazamento de quase 5.000.000 de barris de óleo \citep{nunes2015impactos}. No Brasil, segundo relatório final da ANP \cite{ANP}, um $underground$ $blowout$ (o fluxo de fluidos ocorre de uma formação para outra) em um poço do campo de Frade foi a causa do vazamento de 3.700 barris de petróleo cru no mar.   
+
+Este contexto e outros incidentes fizeram com que a ANP propusesse a resolução nº 46/2016, na qual são estabelecidos os requisitos e diretrizes para a implementação e operação de um Sistema de Gerenciamento da Integridade de Poços (SGIP) de forma a proteger a vida humana e o meio ambiente, à integridade dos ativos da união, de terceiros e do operador do contrato \citep{resolucao}. No SGIP é importante o funcionamento do Conjunto Solidário de Barreiras (CSB) que se refere a um ou mais elementos de barreira de poço capazes de controlar $kick$ ou $blowout$. O CSB ainda pode ser classificado em primário e segundário, de modo que a falha do CSB primário torna necessária uma intervenção através do CSB secundário. 
+
 
 % --------------------------------------------------------------------------
 %\section{Revisão}\label{sec:revisão}%acho interessante não fazer essa seção, mas o conteúdo dela incluir na introdução

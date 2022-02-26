@@ -27,4 +27,33 @@ O. Lindi.
   disasters.
 \newblock Master's thesis, NTNU, 2017.
 
+\bibitem[Thomas, 2001]{thomas2001fundamentos}
+J.~E. Thomas.
+\newblock {\em Fundamentos de engenharia de petr{\'o}leo}.
+\newblock Interci{\^e}ncia, 2001.
+
+\bibitem[Santana et~al., 2021]{santana2021kick}
+J.~S. Santana, de~H.~T. Campos, and E.~S. Cardoso.
+\newblock Kick e blowout na explota{\c{c}}{\~a}o de po{\c{c}}os de
+  petr{\'o}leo--uma revis{\~a}o.
+\newblock {\em REVISTA DE ENGENHARIA E TECNOLOGIA}, vol. 13, n. 2, 2021.
+
+\bibitem[Castro et~al., 2015]{nunes2015impactos}
+C.~B. Castro, L.~A. Martins, and G.~S. Ferreira.
+\newblock As relações entre os acidentes na indústria de petróleoe o
+  desenvolvimento das normas e marcos regulatórios associados: um estudo
+  exploratório'.
+\newblock In {\em I Congresso Nacional de Engenharia de Petr{\'o}leo, G{\'a}s
+  Natural e Biocombust{\'\i}veis, Campina Grande, Brasil}, pp.  1--9, 2015.
+
+\bibitem[Cabral et~al., 2012]{ANP}
+C.~A. Cabral, L.~S.~P. Teixeira, N.~R. Moura, and M. Chambriard.
+\newblock {\em Investigação do incidente de vazamento de petróleo no campo
+  de Frade}.
+\newblock ANP, 2012.
+
+\bibitem[ANP, 2016]{resolucao}
+ ANP.
+\newblock {\em Resolução ANP nº 46}, 2016.
+
 \end{thebibliography}
