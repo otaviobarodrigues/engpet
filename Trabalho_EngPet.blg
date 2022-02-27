@@ -6,45 +6,50 @@ The style file: ./bib-cilamce.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliography.bib
 Warning--empty publisher in resolucao
-You've used 10 entries,
+`volume' is a missing field, not a string, for entry rocha2009projeto
+while executing---line 1066 of file ./bib-cilamce.bst
+Warning--empty journal in norge2013norsok
+`volume' is a missing field, not a string, for entry norge2013norsok
+while executing---line 1066 of file ./bib-cilamce.bst
+You've used 13 entries,
             1926 wiz_defined-function locations,
-            527 strings with 5349 characters,
-and the built_in function-call counts, 2383 in all, are:
-= -- 200
-> -- 64
-< -- 7
-+ -- 27
-- -- 17
-* -- 187
-:= -- 415
-add.period$ -- 27
-call.type$ -- 10
-change.case$ -- 36
-chr.to.int$ -- 10
-cite$ -- 12
-duplicate$ -- 128
-empty$ -- 204
-format.name$ -- 28
-if$ -- 466
+            542 strings with 5807 characters,
+and the built_in function-call counts, 3049 in all, are:
+= -- 254
+> -- 80
+< -- 10
++ -- 34
+- -- 21
+* -- 239
+:= -- 532
+add.period$ -- 35
+call.type$ -- 13
+change.case$ -- 47
+chr.to.int$ -- 13
+cite$ -- 16
+duplicate$ -- 165
+empty$ -- 261
+format.name$ -- 37
+if$ -- 593
 int.to.chr$ -- 1
-int.to.str$ -- 10
-missing$ -- 12
-newline$ -- 50
-num.names$ -- 18
-pop$ -- 59
+int.to.str$ -- 13
+missing$ -- 16
+newline$ -- 64
+num.names$ -- 24
+pop$ -- 76
 preamble$ -- 1
-purify$ -- 40
+purify$ -- 52
 quote$ -- 0
-skip$ -- 74
+skip$ -- 97
 stack$ -- 0
-substring$ -- 97
-swap$ -- 22
+substring$ -- 121
+swap$ -- 27
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 25
-warning$ -- 1
-while$ -- 12
+type$ -- 33
+warning$ -- 2
+while$ -- 15
 width$ -- 0
-write$ -- 122
-(There was 1 warning)
+write$ -- 156
+(There were 2 error messages)

@@ -56,4 +56,20 @@ C.~A. Cabral, L.~S.~P. Teixeira, N.~R. Moura, and M. Chambriard.
  ANP.
 \newblock {\em Resolução ANP nº 46}, 2016.
 
+\bibitem[ROCHA and AZEVEDO, 2009]{rocha2009projeto}
+L.~A.~S. ROCHA and C.~T. AZEVEDO.
+\newblock Projeto de po{\c{c}}os de petr{\'o}leo-geopress{\~o}es e assentamento
+  de colunas de revestimento-2{\textordfeminine} edi{\c{c}}{\~a}o.
+\newblock {\em Editora Interci{\^e}ncia, Rio de Janeiro, Brasil}, 2009.
+
+\bibitem[Aadnoy, 2010]{aadnoy2010modern}
+B.~S. Aadnoy.
+\newblock {\em Modern well design}.
+\newblock CRC press, 2010.
+
+\bibitem[Norge, 2013]{norge2013norsok}
+S. Norge.
+\newblock Norsok standard d-010: Well integrity in drilling and well
+  operations, rev. 4, 2013.
+
 \end{thebibliography}
