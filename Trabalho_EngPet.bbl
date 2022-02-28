@@ -1,32 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[Cardoso, 2005]{cardoso}
-L.~C. Cardoso.
-\newblock {\em Petróleo: do poço ao posto}.
-\newblock Qualitymark, Rio de Janeiro, 2005.
-
-\bibitem[per, 2020]{perf_esquema}
-File:oil rig nt8.svg , wikimedia commons, 2020.
-
-\bibitem[{Paranhos Sobrinho}, 2019]{paranhos}
-E.~S. {Paranhos Sobrinho}.
-\newblock Considera{\c{c}}{\~a}o do repasse na modelagem do fechamento de
-  po{\c{c}}os verticais em rochas salinas.
-\newblock Mestrado, Universidade Federal de Alagoas, Macei{\'o}, 2019.
-
-\bibitem[Barbosa and Santos, 2017]{Iago}
-I.~V.~N. Barbosa and J.~P.~L. Santos.
-\newblock {\em Avaliação Sistemática de Controle de Kick na Perfuração de
-  Poço de Petróleo}.
-\newblock 9{\textordmasculine} Congresso Brasileiro De P\&D Em Petr{\'o}leo e
-  g{\'a}s, 2017.
-
-\bibitem[Lindi, 2017]{lindi2017analysis}
-O. Lindi.
-\newblock Analysis of kick detection methods in the light of actual blowout
-  disasters.
-\newblock Master's thesis, NTNU, 2017.
-
 \bibitem[Thomas, 2001]{thomas2001fundamentos}
 J.~E. Thomas.
 \newblock {\em Fundamentos de engenharia de petr{\'o}leo}.
@@ -71,5 +44,31 @@ B.~S. Aadnoy.
 S. Norge.
 \newblock Norsok standard d-010: Well integrity in drilling and well
   operations, rev. 4, 2013.
+
+\bibitem[Melo et~al., 2019]{melo2019integrated}
+J. Melo, J. Ten{\'o}rio, A. Oliveira, and J. Santos.
+\newblock Integrated evaluation of cement and kick scenarios in oil well
+  design.
+\newblock {\em Brazilian Journal of Petroleum and Gas}, vol. 13, n. 3, 2019.
+
+\bibitem[Ten{\'o}rio et~al., 2018a]{tenorio}
+J. Ten{\'o}rio, J. Melo, A. Oliveira, and J. Santos.
+\newblock Avaliação da integridade de revestimento de poços de petróleo
+  sujeitos a kick de gás.
+\newblock {\em ICCEEg}, 2018a.
+
+\bibitem[Ten{\'o}rio et~al., 2018b]{tenoriosoeaa}
+J. Ten{\'o}rio, J. Melo, A. Oliveira, and J. Santos.
+\newblock ImportÂncia da cimentaÇÃo na estabilidade de poÇos de petrÓleo:
+  Um estudo de caso.
+\newblock {\em Congresso Técnico Científico da Engenharia e da Agronomia},
+  2018b.
+
+\bibitem[COSTA, 2016]{costa}
+J.~C.~H. COSTA.
+\newblock Sistema de aplicaÇÕes de engenharia de petrÓleo (saep): MÓdulo
+  poÇo.
+\newblock Trabalho de conclusão de curso, Universidade Federal de Alagoas,
+  Macei{\'o}, 2016.
 
 \end{thebibliography}

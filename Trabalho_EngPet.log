@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  27 FEB 2022 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  28 FEB 2022 01:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -450,52 +450,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 170.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 170.
-
-
-pdfTeX warning: pdflatex (file ./Figures/perf_esquema2.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<Figures/perf_esquema2.pdf, id=23, 771.88374pt x 455.7025pt>
-File: Figures/perf_esquema2.pdf Graphic file (type pdf)
-<use Figures/perf_esquema2.pdf>
-Package pdftex.def Info: Figures/perf_esquema2.pdf  used on input line 203.
-(pdftex.def)             Requested size: 385.94092pt x 227.85068pt.
-[1
-
-{C:/Users/obaro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figures/ca
-b.png> <./Figures/perf_esquema2.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-19.
+22.
 
 (C:\Users\obaro\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<Figures/CSB_corrigido.png, id=57, 711.4078pt x 542.025pt>
+<Figures/CSB_corrigido.png, id=30, 711.4078pt x 542.025pt>
 File: Figures/CSB_corrigido.png Graphic file (type png)
 <use Figures/CSB_corrigido.png>
-Package pdftex.def Info: Figures/CSB_corrigido.png  used on input line 225.
+Package pdftex.def Info: Figures/CSB_corrigido.png  used on input line 228.
 (pdftex.def)             Requested size: 355.70303pt x 271.01183pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[1
 
- [2 <./Figures/CSB_corrigido.png>]
-<Figures/Figure1.png, id=76, 222.8325pt x 216.81pt>
+{C:/Users/obaro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figures/ca
+b.png>]
+<Figures/Figure1.png, id=61, 222.8325pt x 216.81pt>
 File: Figures/Figure1.png Graphic file (type png)
 <use Figures/Figure1.png>
-Package pdftex.def Info: Figures/Figure1.png  used on input line 292.
+Package pdftex.def Info: Figures/Figure1.png  used on input line 295.
 (pdftex.def)             Requested size: 222.83195pt x 216.80946pt.
- (Trabalho_EngPet.bbl [3 <./Figures/Figure1.png>])
-[4] (Trabalho_EngPet.aux)
+ [2 <./Figures/CSB_corrigido.png>] (Trabalho_EngPet.bbl) [3 <./Figures/Figure1.
+png>] (Trabalho_EngPet.aux)
 Package rerunfilecheck Info: File `Trabalho_EngPet.out' has not changed.
 (rerunfilecheck)             Checksum: FBE83EADEDB1C66157CCCA2ED36A288E;586.
  ) 
 Here is how much of TeX's memory you used:
- 14047 strings out of 478659
- 242154 string characters out of 2845920
- 564505 words of memory out of 3000000
- 31961 multiletter control sequences out of 15000+600000
+ 14034 strings out of 478659
+ 241830 string characters out of 2845920
+ 575363 words of memory out of 3000000
+ 31952 multiletter control sequences out of 15000+600000
  414922 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,63p,1227b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,1227b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/obaro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/obaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
 0.pfb><C:/Users/obaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -506,9 +494,9 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/obaro/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/obaro/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/obaro/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Trabalho_EngPet.pdf (4 pages, 413043 bytes).
+Output written on Trabalho_EngPet.pdf (3 pages, 213363 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
