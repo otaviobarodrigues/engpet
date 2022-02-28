@@ -11,49 +11,51 @@ while executing---line 1066 of file ./bib-cilamce.bst
 Warning--empty journal in norge2013norsok
 `volume' is a missing field, not a string, for entry norge2013norsok
 while executing---line 1066 of file ./bib-cilamce.bst
+`volume' is a missing field, not a string, for entry mendesanalise
+while executing---line 1066 of file ./bib-cilamce.bst
 `volume' is a missing field, not a string, for entry tenorio
 while executing---line 1066 of file ./bib-cilamce.bst
 `volume' is a missing field, not a string, for entry tenoriosoeaa
 while executing---line 1066 of file ./bib-cilamce.bst
-You've used 12 entries,
+You've used 13 entries,
             1926 wiz_defined-function locations,
-            534 strings with 5811 characters,
-and the built_in function-call counts, 3003 in all, are:
-= -- 240
-> -- 106
+            539 strings with 6113 characters,
+and the built_in function-call counts, 3247 in all, are:
+= -- 259
+> -- 117
 < -- 7
-+ -- 42
-- -- 29
-* -- 252
-:= -- 534
-add.period$ -- 34
-call.type$ -- 12
-change.case$ -- 45
-chr.to.int$ -- 11
-cite$ -- 14
-duplicate$ -- 156
-empty$ -- 244
-format.name$ -- 43
-if$ -- 576
++ -- 46
+- -- 32
+* -- 274
+:= -- 579
+add.period$ -- 37
+call.type$ -- 13
+change.case$ -- 49
+chr.to.int$ -- 12
+cite$ -- 15
+duplicate$ -- 168
+empty$ -- 262
+format.name$ -- 47
+if$ -- 621
 int.to.chr$ -- 2
-int.to.str$ -- 12
-missing$ -- 15
-newline$ -- 61
-num.names$ -- 24
-pop$ -- 68
+int.to.str$ -- 13
+missing$ -- 16
+newline$ -- 66
+num.names$ -- 26
+pop$ -- 73
 preamble$ -- 1
-purify$ -- 48
+purify$ -- 52
 quote$ -- 0
-skip$ -- 91
+skip$ -- 98
 stack$ -- 0
-substring$ -- 112
-swap$ -- 27
+substring$ -- 120
+swap$ -- 29
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
+type$ -- 35
 warning$ -- 2
-while$ -- 15
+while$ -- 16
 width$ -- 0
-write$ -- 147
-(There were 4 error messages)
+write$ -- 159
+(There were 5 error messages)

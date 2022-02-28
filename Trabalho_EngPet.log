@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  28 FEB 2022 01:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  28 FEB 2022 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -466,7 +466,7 @@ Package pdftex.def Info: Figures/CSB_corrigido.png  used on input line 228.
 
 {C:/Users/obaro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figures/ca
 b.png>]
-<Figures/Figure1.png, id=61, 222.8325pt x 216.81pt>
+<Figures/Figure1.png, id=63, 222.8325pt x 216.81pt>
 File: Figures/Figure1.png Graphic file (type png)
 <use Figures/Figure1.png>
 Package pdftex.def Info: Figures/Figure1.png  used on input line 295.
@@ -477,10 +477,10 @@ Package rerunfilecheck Info: File `Trabalho_EngPet.out' has not changed.
 (rerunfilecheck)             Checksum: FBE83EADEDB1C66157CCCA2ED36A288E;586.
  ) 
 Here is how much of TeX's memory you used:
- 14034 strings out of 478659
- 241830 string characters out of 2845920
- 575363 words of memory out of 3000000
- 31952 multiletter control sequences out of 15000+600000
+ 14038 strings out of 478659
+ 241911 string characters out of 2845920
+ 575395 words of memory out of 3000000
+ 31955 multiletter control sequences out of 15000+600000
  414922 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,1227b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -494,9 +494,9 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/obaro/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/obaro/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/obaro/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Trabalho_EngPet.pdf (3 pages, 213421 bytes).
+Output written on Trabalho_EngPet.pdf (3 pages, 214192 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
