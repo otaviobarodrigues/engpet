@@ -13,9 +13,9 @@ J.~S. Santana, de~H.~T. Campos, and E.~S. Cardoso.
 
 \bibitem[Castro et~al., 2015]{nunes2015impactos}
 C.~B. Castro, L.~A. Martins, and G.~S. Ferreira.
-\newblock As relações entre os acidentes na indústria de petróleoe o
-  desenvolvimento das normas e marcos regulatórios associados: um estudo
-  exploratório'.
+\newblock As rela{\c{c}}{\~o}es entre os acidentes na ind{\'u}stria de
+  petr{\'o}leo e o desenvolvimento das normas e marcos regulat{\'o}rios
+  associados: um estudo explorat{\'o}rio.
 \newblock In {\em I Congresso Nacional de Engenharia de Petr{\'o}leo, G{\'a}s
   Natural e Biocombust{\'\i}veis, Campina Grande, Brasil}, pp.  1--9, 2015.
 
@@ -48,7 +48,7 @@ S. Norge.
 \bibitem[Silva et~al., 2018]{mendesanalise}
 F.~R. Silva, B.~G. Souza, R.~S. Andrade, and H.~U.~S. Mendes.
 \newblock An{\'a}lise de crit{\'e}rios de assentamento de sapatas de
-  revestimentos e dimensionamento de bop para projetos de po{\c{c}}os de
+  revestimentos e dimensionamento de {BOP} para projetos de po{\c{c}}os de
   petr{\'o}leo.
 \newblock {\em Anais III CONEPETRO}, 2018.
 
@@ -66,16 +66,22 @@ J.~K.~F. Ten{\'o}rio, J.~M.~F. Melo, A.~G.~C. Oliveira, and J.~P.~L. Santos.
 
 \bibitem[Ten{\'o}rio et~al., 2018b]{tenoriosoeaa}
 J.~K.~F. Ten{\'o}rio, J.~M.~F. Melo, and J.~P.~L. Santos.
-\newblock ImportÂncia da cimentaÇÃo na estabilidade de poÇos de petrÓleo:
-  Um estudo de caso.
+\newblock Importância da cimentação na estabilidade de poços de petróleo:
+  um estudo de caso.
 \newblock {\em Congresso Técnico Científico da Engenharia e da Agronomia},
   2018b.
 
-\bibitem[COSTA, 2016]{costa}
-J.~C.~H. COSTA.
-\newblock Sistema de aplicaÇÕes de engenharia de petrÓleo (saep): MÓdulo
-  poÇo.
+\bibitem[Costa, 2016]{costa}
+J.~C.~H. Costa.
+\newblock Sistema de aplicações de egenharia de petróleo ({SAEP}): Módulo
+  poço.
 \newblock Trabalho de conclusão de curso, Universidade Federal de Alagoas,
   Macei{\'o}, 2016.
+
+\bibitem[{Chieza}, 2011]{Chieza2011}
+C.~P. {Chieza}.
+\newblock Diagn{\'o}sticos de problemas operacionais durante a
+  perfura{\c{c}}{\~a}o de po{\c{c}}os de petr{\'o}leo.
+\newblock Mestrado, PUC-Rio, Rio de Janeiro, 2011.
 
 \end{thebibliography}

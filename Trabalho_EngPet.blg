@@ -1,9 +1,5 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: Trabalho_EngPet.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Trabalho_EngPet.aux
 The style file: ./bib-cilamce.bst
-Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliography.bib
 Warning--empty publisher in resolucao
 `volume' is a missing field, not a string, for entry rocha2009projeto
@@ -17,45 +13,4 @@ while executing---line 1066 of file ./bib-cilamce.bst
 while executing---line 1066 of file ./bib-cilamce.bst
 `volume' is a missing field, not a string, for entry tenoriosoeaa
 while executing---line 1066 of file ./bib-cilamce.bst
-You've used 13 entries,
-            1926 wiz_defined-function locations,
-            539 strings with 6113 characters,
-and the built_in function-call counts, 3247 in all, are:
-= -- 259
-> -- 117
-< -- 7
-+ -- 46
-- -- 32
-* -- 274
-:= -- 579
-add.period$ -- 37
-call.type$ -- 13
-change.case$ -- 49
-chr.to.int$ -- 12
-cite$ -- 15
-duplicate$ -- 168
-empty$ -- 262
-format.name$ -- 47
-if$ -- 621
-int.to.chr$ -- 2
-int.to.str$ -- 13
-missing$ -- 16
-newline$ -- 66
-num.names$ -- 26
-pop$ -- 73
-preamble$ -- 1
-purify$ -- 52
-quote$ -- 0
-skip$ -- 98
-stack$ -- 0
-substring$ -- 120
-swap$ -- 29
-text.length$ -- 1
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 35
-warning$ -- 2
-while$ -- 16
-width$ -- 0
-write$ -- 159
 (There were 5 error messages)
