@@ -13,4 +13,6 @@ while executing---line 1066 of file ./bib-cilamce.bst
 while executing---line 1066 of file ./bib-cilamce.bst
 `volume' is a missing field, not a string, for entry tenoriosoeaa
 while executing---line 1066 of file ./bib-cilamce.bst
-(There were 5 error messages)
+`volume' is a missing field, not a string, for entry costa2
+while executing---line 1066 of file ./bib-cilamce.bst
+(There were 6 error messages)

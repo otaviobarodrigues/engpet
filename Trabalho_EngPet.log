@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  3 MAR 2022 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  3 MAR 2022 18:05
 entering extended mode
 **./Trabalho_EngPet.tex
 (Trabalho_EngPet.tex
@@ -519,86 +519,84 @@ File: Figures/poco.pdf Graphic file (type pdf)
 <use Figures/poco.pdf>
 Package pdftex.def Info: Figures/poco.pdf  used on input line 260.
 (pdftex.def)             Requested size: 254.95187pt x 132.49467pt.
-<./Figures/fase1/tri.png, id=72, 1204.5pt x 1003.75pt>
+<Figures/kickgas.png, id=74, 441.14813pt x 444.15938pt>
+File: Figures/kickgas.png Graphic file (type png)
+<use Figures/kickgas.png>
+Package pdftex.def Info: Figures/kickgas.png  used on input line 292.
+(pdftex.def)             Requested size: 176.45612pt x 177.6606pt.
+ [2 <./Figures/CSB_corrigido.png>]
+<./Figures/fase1/tri.png, id=83, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/tri.png Graphic file (type png)
 <use ./Figures/fase1/tri.png>
-Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 294.
+Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 306.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase1/colapso.png, id=73, 1204.5pt x 1003.75pt>
+<./Figures/fase1/colapso.png, id=84, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/colapso.png Graphic file (type png)
 <use ./Figures/fase1/colapso.png>
-Package pdftex.def Info: ./Figures/fase1/colapso.png  used on input line 295.
+Package pdftex.def Info: ./Figures/fase1/colapso.png  used on input line 307.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase1/tracao.png, id=74, 1204.5pt x 1003.75pt>
+<./Figures/fase1/tracao.png, id=85, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/tracao.png Graphic file (type png)
 <use ./Figures/fase1/tracao.png>
-Package pdftex.def Info: ./Figures/fase1/tracao.png  used on input line 296.
+Package pdftex.def Info: ./Figures/fase1/tracao.png  used on input line 308.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
- [2 <./Figures/CSB_corrigido.png>]
-<./Figures/fase2/tri.png, id=83, 1204.5pt x 1003.75pt>
+<./Figures/fase2/tri.png, id=86, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/tri.png Graphic file (type png)
 <use ./Figures/fase2/tri.png>
-Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 305.
+Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 317.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase2/colapso.png, id=84, 1204.5pt x 1003.75pt>
+<./Figures/fase2/colapso.png, id=87, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/colapso.png Graphic file (type png)
 <use ./Figures/fase2/colapso.png>
-Package pdftex.def Info: ./Figures/fase2/colapso.png  used on input line 306.
+Package pdftex.def Info: ./Figures/fase2/colapso.png  used on input line 318.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase2/tracao.png, id=85, 1204.5pt x 1003.75pt>
+<./Figures/fase2/tracao.png, id=88, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/tracao.png Graphic file (type png)
 <use ./Figures/fase2/tracao.png>
-Package pdftex.def Info: ./Figures/fase2/tracao.png  used on input line 307.
+Package pdftex.def Info: ./Figures/fase2/tracao.png  used on input line 319.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase3/tri.png, id=86, 1204.5pt x 1003.75pt>
+<./Figures/fase3/tri.png, id=89, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/tri.png Graphic file (type png)
 <use ./Figures/fase3/tri.png>
-Package pdftex.def Info: ./Figures/fase3/tri.png  used on input line 316.
+Package pdftex.def Info: ./Figures/fase3/tri.png  used on input line 328.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase3/burst.png, id=87, 1204.5pt x 1003.75pt>
+<./Figures/fase3/burst.png, id=90, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/burst.png Graphic file (type png)
 <use ./Figures/fase3/burst.png>
-Package pdftex.def Info: ./Figures/fase3/burst.png  used on input line 317.
+Package pdftex.def Info: ./Figures/fase3/burst.png  used on input line 329.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase3/tracao.png, id=88, 1204.5pt x 1003.75pt>
+<./Figures/fase3/tracao.png, id=91, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/tracao.png Graphic file (type png)
 <use ./Figures/fase3/tracao.png>
-Package pdftex.def Info: ./Figures/fase3/tracao.png  used on input line 318.
+Package pdftex.def Info: ./Figures/fase3/tracao.png  used on input line 330.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <./Figures/poco.pdf> <./Figures/fase1/tri.png> <./Figures/fase1/colapso.png
-> <./Figures/fase1/tracao.png>]
-<Figures/Figure1.png, id=112, 222.8325pt x 216.81pt>
+<Figures/Figure1.png, id=92, 222.8325pt x 216.81pt>
 File: Figures/Figure1.png Graphic file (type png)
 <use Figures/Figure1.png>
-Package pdftex.def Info: Figures/Figure1.png  used on input line 361.
+Package pdftex.def Info: Figures/Figure1.png  used on input line 373.
 (pdftex.def)             Requested size: 222.83195pt x 216.80946pt.
- [4 <./Figures/fase2/tri.png> <./Figures/fase2/colapso.png> <./Figures/fase2/tr
-acao.png>] (Trabalho_EngPet.bbl [5 <./Figures/fase3/tri.png> <./Figures/fase3/b
-urst.png> <./Figures/fase3/tracao.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
- [6 <./Figures/Figure1.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
+ [3 <./Figures/poco.pdf> <./Figures/kickgas.png>] (Trabalho_EngPet.bbl [4 <./Fi
+gures/fase1/tri.png> <./Figures/fase1/colapso.png> <./Figures/fase1/tracao.png>
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
+ [5 <./Figures/fase2/tri.png> <./Figures/fase2/colapso.png> <./Figures/fase2/tr
+acao.png>] [6 <./Figures/fase3/tri.png> <./Figures/fase3/burst.png> <./Figures/
+fase3/tracao.png> <./Figures/Figure1.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 392.
  (Trabalho_EngPet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 392.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 392.
 Package rerunfilecheck Info: File `Trabalho_EngPet.out' has not changed.
 (rerunfilecheck)             Checksum: CA578DC7AEE6EBDCC94A7868332F8AA8;240.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 10582 strings out of 481277
- 178800 string characters out of 2906528
- 458157 words of memory out of 3000000
- 25867 multiletter control sequences out of 15000+200000
+ 10595 strings out of 481277
+ 179026 string characters out of 2906528
+ 458318 words of memory out of 3000000
+ 25877 multiletter control sequences out of 15000+200000
  544908 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,45p,1227b,457s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,16n,45p,1227b,453s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
@@ -609,9 +607,9 @@ Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lucas/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Luc
 as/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users
 /Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Trabalho_EngPet.pdf (6 pages, 538746 bytes).
+Output written on Trabalho_EngPet.pdf (6 pages, 557423 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
