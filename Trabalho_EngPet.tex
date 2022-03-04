@@ -17,6 +17,7 @@
 \usepackage{setspace}
 \usepackage{booktabs}
 \usepackage{multirow}
+\usepackage{float}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -416,7 +417,7 @@ estrutural do sistema, os valores plotados dos pares ordenados (esforço axial, 
 devem estar contidos no espaço delimitado pela envoltória da elipse de von Mises e pela envoltória de
 segurança API \citep{santos2021desenvolvimento}. Na Figura \ref{poco2} é apresentada a elipse de resistência triaxial para tubos de revestimento API. Os procedimentos apresentados anteriormente são a base dos cálculos realizados pelo CWELL a fim de avaliar ou dimensionar revestimentos com a possibilidade de adicionar os fatores de segurança.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.6]{Figures/elipse.png}
 %\vspace{12pt}
@@ -434,7 +435,7 @@ O cenário de estudo adotado é apresentado na Figura~\ref{fig:poco}. A Tabela~\
 
 A perda de circulação é a invasão de fluido de perfuração para a formação através de fraturas existentes ou provocadas em formações com alta permo-porosidade (devido à presença de formação inconsolidada, existência de falhas, fraturas naturais, cavernas, entre outros) ou em zonas depletadas \citep{Chieza2011}. Na perda de circulação total não há retorno do fluido para a superfície. Neste caso, tem-se uma falha no CSB primário (fluido de perfuração), pois a invasão da lama na formação reduz o nível de fluido de perfuração no anular, diminuindo a pressão hidrostática \citep{Chieza2011}. Caso pressão hidrostática alcançar níveis abaixo da pressão de poros, a perda total de circulação pode ocasionar um \textit{kick}. Admitindo que a barreira primária seja rompida, as resistências dos revestimentos que compõem o poço são analisadas, observe na Figura~\ref{Fig2} que o revestimento é um dos elementos dos CSB secundário.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.5]{Figures/poco.pdf}
 %\vspace{12pt}
@@ -447,9 +448,9 @@ A perda de circulação é a invasão de fluido de perfuração para a formaçã
 
 % Please add the following required packages to your document preamble:
 % \usepackage{multirow}
-\begin{table}[!ht]
+\begin{table}[H]
 \centering
-\caption{Valores numéricos associados ao caso de estudo. Fonte: Adaptado de \citep{costa}}
+\caption{Valores numéricos associados ao caso de estudo. Fonte: Adaptado de \citep{costa}.}
 \label{tab:poco}
 \begin{tabular}{ccccccccc}
 \multicolumn{1}{c|}{\multirow{2}{*}{Revestimento}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Diâmetro \\ externo {[}pol{]}\end{tabular}}} & \multicolumn{3}{c|}{MD {[}m{]}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Broca \\ {[}pol{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Densidade \\ da lama  {[}lb/gal{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{Grade}} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Peso \\ linear {[}lb/ft{]}\end{tabular}} \\ \cline{3-5}
@@ -462,23 +463,17 @@ Produção & 7 & 0 & 1200 & 2400 & 8 1/2 & 12 & C75 & 32 \\ \hline
 
 
 
-
-\begin{table}[!ht]
+\begin{table}[H]
 \centering
-\caption{Fatores de segurança de projeto}
+\caption{Fatores de segurança de projeto.}
 \label{tab:fatores}
 \begin{tabular}{c|c|c|c}
-Colapso & $Burst$ & Tração & Triaxial \\ \hline
-1,00 & 1,10 & 1,30 & 1,25
+%Colapso & $Burst$ & Tração & Triaxial \\ \hline
+Tração & $Burst$ & Colapso  & Triaxial \\ \hline
+1,30 & 1,10 & 1,00 & 1,25
 \end{tabular}
 \end{table}
 
-
-
-
-% --------------------------------------------------------------------------
-\section{Resultados e discussão} \label{sec:resultados}
-% --------------------------------------------------------------------------
 
 A Figura~\ref{fig:kickgas} detalha os dados utilizados para a simulação de um \textit{kick} de gás na interface SAEP. Os valores numéricos dos parâmetros foram extraídos de \citep{costa2}.
 
@@ -491,9 +486,15 @@ A Figura~\ref{fig:kickgas} detalha os dados utilizados para a simulação de um 
 \end{center}
 \end{figure}
 
-A Tabela \ref{Eq1} apresenta as resistências à tração, ao colapso e ao $burst$ nos revestimentos do poço. 
 
-\begin{table}
+
+% --------------------------------------------------------------------------
+\section{Resultados e discussão} \label{sec:resultados}
+% --------------------------------------------------------------------------
+
+A Tabela \ref{tab_res} apresenta as resistências à tração, ao colapso e ao $burst$ nos revestimentos do poço fornecidas pelo CWELL. Na Figura \ref{fig:resultsF1}(a) é apresentada a análise triaxial do revestimento condutor. A envoltória dos esforços de circulação total encontra-se no interior dos limites API e da elipse de von Mises, apontando que não há falha por ELU e ELS.
+
+\begin{table}[H]
 \centering
 \caption{Resistência das colunas de revestimento.}
 \begin{tabular}{c|c|c|c}
@@ -503,13 +504,13 @@ Tração [klbf]   & 1076,71                                                     
 $Burst$ [psi] & 1533,00                                                                   & 3094,39                                                                        & 8493,75                                                                       \\
 Colapso [psi]   & 515,47                                                                    & 1539,51                                                                        & 8201,37                                                                      
 \end{tabular}
+\label{tab_res}
 \end{table}
 
-Na Figura \ref{fig:resultsF1}(a) é apresentada a análise triaxial do revestimento condutor. A envoltória dos esforços de circulação total encontra-se no interior dos limites API e da elipse de von Mises, apontando que não há falha por ELU e ELS.
 
 
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 \begin{center}
 \center
 \subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase1/tri.png}}\qquad
@@ -520,7 +521,7 @@ Na Figura \ref{fig:resultsF1}(a) é apresentada a análise triaxial do revestime
 \end{center}
 \end{figure}
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 \begin{center}
 \center
 \subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase2/tri.png}}\qquad
@@ -531,7 +532,7 @@ Na Figura \ref{fig:resultsF1}(a) é apresentada a análise triaxial do revestime
 \end{center}
 \end{figure}
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 \begin{center}
 \center
 \subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase3/tri.png}}\qquad
