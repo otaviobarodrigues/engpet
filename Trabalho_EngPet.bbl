@@ -5,6 +5,14 @@ J.~E. Thomas.
 \newblock {\em Fundamentos de engenharia de petr{\'o}leo}.
 \newblock Interci{\^e}ncia, 2001.
 
+\bibitem[SINTEF, 2022]{SINTEF}
+ SINTEF.
+\newblock {SINTEF} {O}ffshore {B}lowout {D}atabase, 2022.
+
+\bibitem[Khalifeh and Saasen, 2020]{inbook}
+M. Khalifeh and A. Saasen.
+\newblock {\em General Principles of Well Barriers}, pp.  11--69, 2020.
+
 \bibitem[Santana et~al., 2021]{santana2021kick}
 J.~S. Santana, de~H.~T. Campos, and E.~S. Cardoso.
 \newblock Kick e blowout na explota{\c{c}}{\~a}o de po{\c{c}}os de
@@ -44,10 +52,6 @@ B.~S. Aadnoy.
 S. Norge.
 \newblock Norsok standard d-010: Well integrity in drilling and well
   operations, rev. 4, 2013.
-
-\bibitem[Khalifeh and Saasen, 2020]{inbook}
-M. Khalifeh and A. Saasen.
-\newblock {\em General Principles of Well Barriers}, pp.  11--69, 2020.
 
 \bibitem[Silva et~al., 2018]{mendesanalise}
 F.~R. Silva, B.~G. Souza, R.~S. Andrade, and H.~U.~S. Mendes.
