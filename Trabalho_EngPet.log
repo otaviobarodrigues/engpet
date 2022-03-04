@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  4 MAR 2022 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  4 MAR 2022 15:00
 entering extended mode
 **./Trabalho_EngPet.tex
 (Trabalho_EngPet.tex
@@ -483,12 +483,6 @@ LaTeX Warning: Label `Eq1' multiply defined.
 
 LaTeX Warning: Label `Eq1@cref' multiply defined.
 
-
-LaTeX Warning: Label `fig:resultsF1' multiply defined.
-
-
-LaTeX Warning: Label `fig:resultsF1@cref' multiply defined.
-
 )
 \openout1 = `Trabalho_EngPet.aux'.
 
@@ -608,98 +602,108 @@ File: Figures/cab.png Graphic file (type png)
 <use Figures/cab.png>
 Package pdftex.def Info: Figures/cab.png  used on input line 156.
 (pdftex.def)             Requested size: 426.79134pt x 48.07167pt.
+<Figures/poco2.pdf, id=30, 760.3788pt x 436.76875pt>
+File: Figures/poco2.pdf Graphic file (type pdf)
+<use Figures/poco2.pdf>
+Package pdftex.def Info: Figures/poco2.pdf  used on input line 227.
+(pdftex.def)             Requested size: 326.95651pt x 187.8069pt.
+ [1
+
+{C:/Users/Lucas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/c
+ab.png> <./Figures/poco2.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-27.
+38.
 
 ("C:\Users\Lucas\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<./Figures/CSB_corrigido.png, id=34, 711.4078pt x 542.025pt>
-File: ./Figures/CSB_corrigido.png Graphic file (type png)
-<use ./Figures/CSB_corrigido.png>
-Package pdftex.def Info: ./Figures/CSB_corrigido.png  used on input line 245.
-(pdftex.def)             Requested size: 284.52756pt x 216.78961pt.
-<./Figures/poco2.pdf, id=35, 489.57002pt x 660.49763pt>
-File: ./Figures/poco2.pdf Graphic file (type pdf)
-<use ./Figures/poco2.pdf>
-Package pdftex.def Info: ./Figures/poco2.pdf  used on input line 246.
-(pdftex.def)             Requested size: 147.95424pt x 199.61218pt.
-[1
+<Figures/CSB_corrigido.png, id=76, 711.4078pt x 542.025pt>
+File: Figures/CSB_corrigido.png Graphic file (type png)
+<use Figures/CSB_corrigido.png>
+Package pdftex.def Info: Figures/CSB_corrigido.png  used on input line 244.
+(pdftex.def)             Requested size: 355.70303pt x 271.01183pt.
 
-{C:/Users/Lucas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/c
-ab.png>] [2 <./Figures/CSB_corrigido.png> <./Figures/poco2.pdf>]
-<Figures/elipse.png, id=105, 680.5425pt x 472.01344pt>
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [2 <./Figures/CSB_corrigido.png>] [3]
+<Figures/elipse.png, id=124, 680.5425pt x 472.01344pt>
 File: Figures/elipse.png Graphic file (type png)
 <use Figures/elipse.png>
-Package pdftex.def Info: Figures/elipse.png  used on input line 420.
+Package pdftex.def Info: Figures/elipse.png  used on input line 418.
 (pdftex.def)             Requested size: 408.32864pt x 283.21025pt.
-<Figures/poco.pdf, id=115, 509.905pt x 264.99pt>
+<Figures/poco.pdf, id=134, 509.905pt x 264.99pt>
 File: Figures/poco.pdf Graphic file (type pdf)
 <use Figures/poco.pdf>
-Package pdftex.def Info: Figures/poco.pdf  used on input line 438.
+Package pdftex.def Info: Figures/poco.pdf  used on input line 436.
 (pdftex.def)             Requested size: 254.95187pt x 132.49467pt.
- [3]
-<Figures/kickgas.png, id=135, 441.14813pt x 444.15938pt>
+<Figures/kickgas.png, id=139, 441.14813pt x 444.15938pt>
 File: Figures/kickgas.png Graphic file (type png)
 <use Figures/kickgas.png>
-Package pdftex.def Info: Figures/kickgas.png  used on input line 486.
+Package pdftex.def Info: Figures/kickgas.png  used on input line 484.
 (pdftex.def)             Requested size: 176.45612pt x 177.6606pt.
- [4 <./Figures/elipse.png> <./Figures/poco.pdf>]
-<./Figures/fase1/tri.png, id=154, 1204.5pt x 1003.75pt>
+
+Underfull \vbox (badness 7379) has occurred while \output is active []
+
+ [4 <./Figures/elipse.png>]
+<./Figures/fase1/tri.png, id=150, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/tri.png Graphic file (type png)
 <use ./Figures/fase1/tri.png>
-Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 500.
+Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 498.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase1/colapso.png, id=155, 1204.5pt x 1003.75pt>
+<./Figures/fase1/colapso.png, id=151, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/colapso.png Graphic file (type png)
 <use ./Figures/fase1/colapso.png>
-Package pdftex.def Info: ./Figures/fase1/colapso.png  used on input line 501.
+Package pdftex.def Info: ./Figures/fase1/colapso.png  used on input line 499.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase1/tracao.png, id=156, 1204.5pt x 1003.75pt>
+<./Figures/fase1/tracao.png, id=152, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/tracao.png Graphic file (type png)
 <use ./Figures/fase1/tracao.png>
-Package pdftex.def Info: ./Figures/fase1/tracao.png  used on input line 502.
+Package pdftex.def Info: ./Figures/fase1/tracao.png  used on input line 500.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase2/tri.png, id=157, 1204.5pt x 1003.75pt>
+<./Figures/fase2/tri.png, id=153, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/tri.png Graphic file (type png)
 <use ./Figures/fase2/tri.png>
-Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 511.
+Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 509.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase2/colapso.png, id=158, 1204.5pt x 1003.75pt>
+<./Figures/fase2/colapso.png, id=154, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/colapso.png Graphic file (type png)
 <use ./Figures/fase2/colapso.png>
-Package pdftex.def Info: ./Figures/fase2/colapso.png  used on input line 512.
+Package pdftex.def Info: ./Figures/fase2/colapso.png  used on input line 510.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase2/tracao.png, id=159, 1204.5pt x 1003.75pt>
+<./Figures/fase2/tracao.png, id=155, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/tracao.png Graphic file (type png)
 <use ./Figures/fase2/tracao.png>
-Package pdftex.def Info: ./Figures/fase2/tracao.png  used on input line 513.
+Package pdftex.def Info: ./Figures/fase2/tracao.png  used on input line 511.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase3/tri.png, id=160, 1204.5pt x 1003.75pt>
+<./Figures/fase3/tri.png, id=156, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/tri.png Graphic file (type png)
 <use ./Figures/fase3/tri.png>
-Package pdftex.def Info: ./Figures/fase3/tri.png  used on input line 522.
+Package pdftex.def Info: ./Figures/fase3/tri.png  used on input line 520.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase3/burst.png, id=161, 1204.5pt x 1003.75pt>
+<./Figures/fase3/burst.png, id=157, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/burst.png Graphic file (type png)
 <use ./Figures/fase3/burst.png>
-Package pdftex.def Info: ./Figures/fase3/burst.png  used on input line 523.
+Package pdftex.def Info: ./Figures/fase3/burst.png  used on input line 521.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase3/tracao.png, id=162, 1204.5pt x 1003.75pt>
+<./Figures/fase3/tracao.png, id=158, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/tracao.png Graphic file (type png)
 <use ./Figures/fase3/tracao.png>
-Package pdftex.def Info: ./Figures/fase3/tracao.png  used on input line 524.
+Package pdftex.def Info: ./Figures/fase3/tracao.png  used on input line 522.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
- (Trabalho_EngPet.bbl [5 <./Figures/kickgas.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 551.
+ (Trabalho_EngPet.bbl [5 <./Figures/poco.pdf> <./Figures/kickgas.png>]
+Underfull \vbox (badness 3514) has occurred while \output is active []
+
  [6 <./Figures/fase1/tri.png> <./Figures/fase1/colapso.png> <./Figures/fase1/tr
-acao.png>] [7 <./Figures/fase2/tri.png> <./Figures/fase2/colapso.png> <./Figure
-s/fase2/tracao.png>] [8 <./Figures/fase3/tri.png> <./Figures/fase3/burst.png> <
-./Figures/fase3/tracao.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 551.
+acao.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 549.
+
+[7 <./Figures/fase2/tri.png> <./Figures/fase2/colapso.png> <./Figures/fase2/tra
+cao.png>] [8 <./Figures/fase3/tri.png> <./Figures/fase3/burst.png> <./Figures/f
+ase3/tracao.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 549.
  (Trabalho_EngPet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 551.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 551.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 549.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 549.
 Package rerunfilecheck Info: File `Trabalho_EngPet.out' has not changed.
 (rerunfilecheck)             Checksum: 35ACC64C9E21D411F9889F83FE22706E;312.
 
@@ -708,34 +712,29 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11213 strings out of 481277
- 186583 string characters out of 2906528
- 474727 words of memory out of 3000000
- 26456 multiletter control sequences out of 15000+200000
+ 11215 strings out of 481277
+ 186593 string characters out of 2906528
+ 475939 words of memory out of 3000000
+ 26461 multiletter control sequences out of 15000+200000
  545362 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,45p,1227b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.7} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-{C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
-C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Lucas/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lucas/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lucas/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
-ers/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C
-:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
-b><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri
-8a.pfb>
-Output written on Trabalho_EngPet.pdf (8 pages, 750836 bytes).
+ 41i,16n,45p,1269b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}<C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Lucas/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lucas/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lucas/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times
+/utmb8a.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmr8a.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on Trabalho_EngPet.pdf (8 pages, 787299 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

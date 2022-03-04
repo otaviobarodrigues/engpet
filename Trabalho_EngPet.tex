@@ -220,7 +220,18 @@ This template file provides detailed formatting instructions for preparing your 
 
 %De acordo com \cite{lindi2017analysis}, existem métodos de detecção de $kick$, tais como: um aumento na taxa de fluxo de retorno de lama; aumento da taxa de penetração e fluxo do poço com as bombas desligadas. Uma vez detectado o $kick$, métodos de controle são utilizados para reestabelecer o contróleo primário do poço, restaurando o equilíbrio hidrostático, pode-se citar os métodos convencionais (Método do Sondador, Método do Engenheiro e Métodos Volumétricos) e não convencionais (Bullheading, Stripping e Snubbing) \cite{Iago}.
 
-Um poço de petróleo é perfurado em várias fases, que são revestidas e formam as colunas de revestimento, iniciando com um tubo de pequena extensão e diâmetro maior que os posteriores. Para realizar a perfuração da fase, é necessário um conjunto de ferramentas que constitui a coluna de perfuração, além do fluido de perfuração. De acordo com \citep{thomas2001fundamentos}, quando a pressão do fluido é inferior a pressão de poros dos fluidos confinados nos poros há um influxo destes para o poço, formando um $kick$. \citep{thomas2001fundamentos} ainda explica que um fluxo indesejado da formação de forma incontrolável gera um $blowout$. 
+Um poço de petróleo é perfurado em várias fases, que são revestidas e formam as colunas de revestimento, iniciando com um tubo de pequena extensão e diâmetro maior que os posteriores. Para realizar a perfuração da fase, é necessário um conjunto de ferramentas que constitui a coluna de perfuração, além do fluido de perfuração. De acordo com \citep{thomas2001fundamentos}, quando a pressão do fluido é inferior a pressão de poros dos fluidos confinados nos poros há um influxo destes para o poço, formando um $kick$. \citep{thomas2001fundamentos} ainda explica que um fluxo indesejado da formação de forma incontrolável gera um $blowout$, conforme ilustra a Figura~\ref{fig:graph}. Adicionalmente, a Figura~\ref{fig:graph} mostra a ocorrência de $blowout$ no ciclo de vida de poços no Golfo do México, Reino Unido (UK) e no Mar do Norte. Segundo \citep{SINTEF}, geralmente, os dados das plataformas dessas regiões são mais bem documentados do que explosões em outras localidades. É percebida que, para o período analisado, mais da metade dos $blowout's$ aconteceram durante a etapa de perfuração. Dessa forma, tem-se a importância de dedicar estudos para mitigar o problema em questão.
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=0.43]{Figures/poco2.pdf}
+\vspace{12pt}
+\caption{\centering{$Blowout$ no ciclo de vida de poços e esquema da evolução de um $kick$ para um $Blowout$. Fonte: Adaptado de \citep{inbook}.}}
+\label{fig:graph}
+\end{center}
+\end{figure}
+\vspace{8pt}
+
 
 Segundo \citep{santana2021kick}, um $blowout$ é capaz de causar danos aos equipamentos da sonda, assim como lesões às pessoas que trabalham nela. Em 2010, por exemplo, um $blowout$ ao perfurar o poço de Macondo no golfo do México gerou incêndios e explosões na plataforma que levaram a morte de onze pessoas, além do vazamento de quase 5.000.000 de barris de óleo \citep{nunes2015impactos}. No Brasil, segundo relatório final da ANP \cite{ANP}, um $underground$ $blowout$ (o fluxo de fluidos ocorre de uma formação para outra) em um poço do campo de Frade foi a causa do vazamento de 3.700 barris de petróleo cru no mar.   
 
@@ -228,29 +239,16 @@ Estes e outros incidentes fizeram com que a ANP propusesse a resolução nº 46/
 
 A falha dos elementos do conjunto primário torna necessária uma intervenção através dos elementos do conjunto secundário. A Figura \ref{Fig2} mostra os elementos de barreira de poço dos CSB primário e secundário durante a perfuração. Entre tais, destacam-se o fluido na coluna e o revestimento. É importante garantir a integridade dessas estruturas. A variação permitida para as pressões do fluido de perfuração no poço, segundo \citep{rocha2009projeto}, deve obedecer a janela operacional, ou seja, respeitar os limites das pressões de poros, fratura e colapso. As colunas de revestimento, de acordo com \citep{aadnoy2010modern},  são dimensionadas para suportar $burst$ e colapso, além de esforços à tração.
 
-%\begin{figure}[!ht]
-%\begin{center}
-%\includegraphics[scale=0.5]{Figures/CSB_corrigido.png}
-%\vspace{12pt}
-%\caption{Elementos de barreira de poço em um processo de perfuração. Fonte: Adaptado de \citep{norge2013norsok}.}
-%\label{Fig2}
-%\end{center}
-%\end{figure}
-%\vspace{8pt}
-
-
 \begin{figure}[!ht]
 \begin{center}
-\center
-\subfigure[ref1][]{\includegraphics[width=10cm]{./Figures/CSB_corrigido.png}}\qquad
-\subfigure[ref2][]{\includegraphics[width=5.2cm]{./Figures/poco2.pdf}}
-\caption{\centering{Elementos de barreira de poço em um processo de perfuração. a) Fonte: Adaptado de \citep{norge2013norsok}; b) Fonte: Adaptado de \citep{inbook}.}}
-\label{fig:resultsF1}
+\includegraphics[scale=0.5]{Figures/CSB_corrigido.png}
+\vspace{12pt}
+\caption{Elementos de barreira de poço em um processo de perfuração. Fonte: Adaptado de \citep{norge2013norsok}.}
+\label{Fig2}
 \end{center}
 \end{figure}
+\vspace{8pt}
 
-
-\citep{inbook}.
 
 Na literatura são encontrados alguns trabalhos que envolvem a integridade em fluidos e revestimento. \cite{mendesanalise}, por exemplo, analisam diferentes critérios de assentamento de sapatas de revestimento e definem o peso de fluido de perfuração ótimo a partir da média entre as pressões de poros e de fratura.  \citep{melo2019integrated}, \citep{tenorio} e \citep{tenoriosoeaa}, por exemplo, avaliam a possibilidade de falha em revestimentos considerando os cenários de $kick$ de gás durante a perfuração, cimentação na instalação e uma análise integrada de $kick$ e cimentação, respectivamente. Para tanto, utiliza-se a ferramenta $Casing$ $Well$ (CWELL), a qual foi desenvolvida por \citep{costa} e está disponível no Sistema de Aplicações de Engenharia de Petróleo (SAEP).
 
