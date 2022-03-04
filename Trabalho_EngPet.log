@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  4 MAR 2022 00:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  4 MAR 2022 00:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -412,7 +412,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count293
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-45.
+46.
 
 (C:\Users\obaro\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -468,24 +468,24 @@ LaTeX Warning: Label `Eq1@cref' multiply defined.
 )
 \openout1 = `Trabalho_EngPet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -555,7 +555,7 @@ G,.JBIG2,.JB2,.eps]
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 145.
+Package hyperref Info: Link coloring OFF on input line 146.
 
 (C:\Users\obaro\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -569,9 +569,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count301
 )
-LaTeX Info: Redefining \ref on input line 145.
-LaTeX Info: Redefining \pageref on input line 145.
-LaTeX Info: Redefining \nameref on input line 145.
+LaTeX Info: Redefining \ref on input line 146.
+LaTeX Info: Redefining \pageref on input line 146.
+LaTeX Info: Redefining \nameref on input line 146.
  (Trabalho_EngPet.out) (Trabalho_EngPet.out)
 \@outlinefile=\write3
 \openout3 = `Trabalho_EngPet.out'.
@@ -581,10 +581,10 @@ Package caption Info: End \AtBeginDocument code.
 <Figures/cab.png, id=23, 426.3445pt x 48.01833pt>
 File: Figures/cab.png Graphic file (type png)
 <use Figures/cab.png>
-Package pdftex.def Info: Figures/cab.png  used on input line 155.
+Package pdftex.def Info: Figures/cab.png  used on input line 156.
 (pdftex.def)             Requested size: 426.79134pt x 48.07167pt.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-26.
+27.
 
 (C:\Users\obaro\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -592,7 +592,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 <Figures/CSB_corrigido.png, id=34, 711.4078pt x 542.025pt>
 File: Figures/CSB_corrigido.png Graphic file (type png)
 <use Figures/CSB_corrigido.png>
-Package pdftex.def Info: Figures/CSB_corrigido.png  used on input line 232.
+Package pdftex.def Info: Figures/CSB_corrigido.png  used on input line 233.
 (pdftex.def)             Requested size: 355.70303pt x 271.01183pt.
 
 [1
@@ -602,63 +602,63 @@ b.png>] [2 <./Figures/CSB_corrigido.png>]
 <Figures/elipse.png, id=87, 680.5425pt x 472.01344pt>
 File: Figures/elipse.png Graphic file (type png)
 <use Figures/elipse.png>
-Package pdftex.def Info: Figures/elipse.png  used on input line 405.
+Package pdftex.def Info: Figures/elipse.png  used on input line 406.
 (pdftex.def)             Requested size: 408.32864pt x 283.21025pt.
 <Figures/poco.pdf, id=96, 509.905pt x 264.99pt>
 File: Figures/poco.pdf Graphic file (type pdf)
 <use Figures/poco.pdf>
-Package pdftex.def Info: Figures/poco.pdf  used on input line 423.
+Package pdftex.def Info: Figures/poco.pdf  used on input line 424.
 (pdftex.def)             Requested size: 254.95187pt x 132.49467pt.
 <Figures/kickgas.png, id=101, 441.14813pt x 444.15938pt>
 File: Figures/kickgas.png Graphic file (type png)
 <use Figures/kickgas.png>
-Package pdftex.def Info: Figures/kickgas.png  used on input line 455.
+Package pdftex.def Info: Figures/kickgas.png  used on input line 456.
 (pdftex.def)             Requested size: 176.45612pt x 177.6606pt.
  [3]
 <./Figures/fase1/tri.png, id=116, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/tri.png Graphic file (type png)
 <use ./Figures/fase1/tri.png>
-Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 469.
+Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 470.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase1/colapso.png, id=117, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/colapso.png Graphic file (type png)
 <use ./Figures/fase1/colapso.png>
-Package pdftex.def Info: ./Figures/fase1/colapso.png  used on input line 470.
+Package pdftex.def Info: ./Figures/fase1/colapso.png  used on input line 471.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase1/tracao.png, id=118, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/tracao.png Graphic file (type png)
 <use ./Figures/fase1/tracao.png>
-Package pdftex.def Info: ./Figures/fase1/tracao.png  used on input line 471.
+Package pdftex.def Info: ./Figures/fase1/tracao.png  used on input line 472.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase2/tri.png, id=119, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/tri.png Graphic file (type png)
 <use ./Figures/fase2/tri.png>
-Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 480.
+Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 481.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase2/colapso.png, id=120, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/colapso.png Graphic file (type png)
 <use ./Figures/fase2/colapso.png>
-Package pdftex.def Info: ./Figures/fase2/colapso.png  used on input line 481.
+Package pdftex.def Info: ./Figures/fase2/colapso.png  used on input line 482.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase2/tracao.png, id=121, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/tracao.png Graphic file (type png)
 <use ./Figures/fase2/tracao.png>
-Package pdftex.def Info: ./Figures/fase2/tracao.png  used on input line 482.
+Package pdftex.def Info: ./Figures/fase2/tracao.png  used on input line 483.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase3/tri.png, id=122, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/tri.png Graphic file (type png)
 <use ./Figures/fase3/tri.png>
-Package pdftex.def Info: ./Figures/fase3/tri.png  used on input line 491.
+Package pdftex.def Info: ./Figures/fase3/tri.png  used on input line 492.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase3/burst.png, id=123, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/burst.png Graphic file (type png)
 <use ./Figures/fase3/burst.png>
-Package pdftex.def Info: ./Figures/fase3/burst.png  used on input line 492.
+Package pdftex.def Info: ./Figures/fase3/burst.png  used on input line 493.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase3/tracao.png, id=124, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/tracao.png Graphic file (type png)
 <use ./Figures/fase3/tracao.png>
-Package pdftex.def Info: ./Figures/fase3/tracao.png  used on input line 493.
+Package pdftex.def Info: ./Figures/fase3/tracao.png  used on input line 494.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -667,10 +667,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./Figures/kickgas.png> <./Figures/fase1/tri.png> <./Figures/fase1/colapso.
-png> <./Figures/fase1/tracao.png>] [6 <./Figures/fase2/tri.png> <./Figures/fase
-2/colapso.png> <./Figures/fase2/tracao.png>] (Trabalho_EngPet.bbl [7 <./Figures
-/fase3/tri.png> <./Figures/fase3/burst.png> <./Figures/fase3/tracao.png>]) [8]
-(Trabalho_EngPet.aux)
+png> <./Figures/fase1/tracao.png>] (Trabalho_EngPet.bbl
+Underfull \vbox (badness 2229) has occurred while \output is active []
+
+ [6 <./Figures/fase2/tri.png> <./Figures/fase2/colapso.png> <./Figures/fase2/tr
+acao.png>]
+[7 <./Figures/fase3/tri.png> <./Figures/fase3/burst.png> <./Figures/fase3/traca
+o.png>]) [8] (Trabalho_EngPet.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -680,11 +683,11 @@ Package rerunfilecheck Info: File `Trabalho_EngPet.out' has not changed.
 Here is how much of TeX's memory you used:
  15056 strings out of 478659
  258306 string characters out of 2845920
- 592205 words of memory out of 3000000
+ 594783 words of memory out of 3000000
  32900 multiletter control sequences out of 15000+600000
  416454 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,17n,63p,1227b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,63p,1227b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/obaro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/obaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/obaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -696,7 +699,7 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/obaro/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/obaro/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/obaro/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Trabalho_EngPet.pdf (8 pages, 639455 bytes).
+Output written on Trabalho_EngPet.pdf (8 pages, 640317 bytes).
 PDF statistics:
  238 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)
