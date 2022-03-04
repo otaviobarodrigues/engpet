@@ -415,7 +415,7 @@ segurança API \citep{santos2021desenvolvimento}. Na Figura \ref{poco2} é apres
 \section{Cenários de barreira de segurança} \label{sec:cenários}
 % --------------------------------------------------------------------------
 
-O cenário de estudo adotado é apresentado na Figura~\ref{fig:poco}. A Tabela~\ref{tab:poco} apresenta os valores numéricos associados a configuração do poço adotado. Este caso de estudo foi idealizado por \citep{costa}. Neste trabalho é avaliada a perda total de circulação nas fases 1 (revestimento condutor) e 2 (revestimento intermediário). Adicionalmente, na terceira fase (revestimento de produção), é avaliado um cenário de \textit{kick} de gás.  
+O cenário de estudo adotado é apresentado na Figura~\ref{fig:poco}. A Tabela~\ref{tab:poco} apresenta os valores numéricos associados a configuração do poço adotado. Os fatores de segurança estão disponíveis na Tabela~\ref{tab:fatores}. Este caso de estudo foi idealizado por \citep{costa}. Neste trabalho é avaliada a perda total de circulação nas fases 1 (revestimento condutor) e 2 (revestimento intermediário). Adicionalmente, na terceira fase (revestimento de produção), é avaliado um cenário de \textit{kick} de gás.  
 
 A perda de circulação é a invasão de fluido de perfuração para a formação através de fraturas existentes ou provocadas em formações com alta permo-porosidade (devido à presença de formação inconsolidada, existência de falhas, fraturas naturais, cavernas, entre outros) ou em zonas depletadas \citep{Chieza2011}. Na perda de circulação total não há retorno do fluido para a superfície. Neste caso, tem-se uma falha no CSB primário (fluido de perfuração), pois a invasão da lama na formação reduz o nível de fluido de perfuração no anular, diminuindo a pressão hidrostática \citep{Chieza2011}. Caso pressão hidrostática alcançar níveis abaixo da pressão de poros, a perda total de circulação pode ocasionar um \textit{kick}. Admitindo que a barreira primária seja rompida, as resistências dos revestimentos que compõem o poço são analisadas, observe na Figura~\ref{Fig2} que o revestimento é um dos elementos dos CSB secundário.
 
@@ -444,6 +444,22 @@ Intermediário & 13 3/8 & 0 & 0 & 1400 & 17 1/2 & 10 & K55 & 61 \\
 Produção & 7 & 0 & 1200 & 2400 & 8 1/2 & 12 & C75 & 32 \\ \hline
 \end{tabular}
 \end{table}
+
+
+
+
+\begin{table}[!ht]
+\centering
+\caption{Fatores de segurança de projeto}
+\label{tab:fatores}
+\begin{tabular}{c|c|c|c}
+Colapso & Pressão Interna & Tração/Compressão & Triaxial \\ \hline
+1.00 & 1.10 & 1.30 & 1.25
+\end{tabular}
+\end{table}
+
+
+
 
 % --------------------------------------------------------------------------
 \section{Resultados e discussão} \label{sec:resultados}
