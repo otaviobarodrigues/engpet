@@ -25,7 +25,7 @@
 \usepackage[utf8]{inputenc}
 %\usepackage{amssymb} %Mathematics
 %\usepackage{amsfonts}%Mathematics
-%\usepackage{amsmath,amscd}%Mathematics
+\usepackage{amsmath,amscd}%Mathematics
 %\usepackage{amsthm}%Mathematics
 %\usepackage{mathrsfs}%Mathematics font
 %\usepackage{xspace}
@@ -137,7 +137,7 @@
 
 % --------------------------------------------------------------------------
 % PLEASE, EDIT THIS!
-\fancyhead[LE]{\footnotesize \textit{Titulo}}
+\fancyhead[LE]{\footnotesize \textit{Avaliação da integridade de barreiras de poço primária e secundária em cenários de $kick$ de gás e perda de circulação total}}
 \fancyhead[RO]{\footnotesize \textit{G. L. L. Santos, O. B. A. Rodrigues, J. P. L. Santos}}
 % --------------------------------------------------------------------------
 
@@ -161,7 +161,7 @@
 
 \noindent
 \textbf{\Large
-Avaliação da integridade de barreiras de poço primária e secundária em processo de perda total} 
+Avaliação da integridade de barreiras de poço primária e secundária em cenários de \textit{kick} de gás e perda de circulação total} 
 \vspace{18pt} % <- keep this vertical space!
 
 % --------------------------------------------------------------------------
@@ -216,13 +216,13 @@ This template file provides detailed formatting instructions for preparing your 
 
 %De acordo com \cite{lindi2017analysis}, existem métodos de detecção de $kick$, tais como: um aumento na taxa de fluxo de retorno de lama; aumento da taxa de penetração e fluxo do poço com as bombas desligadas. Uma vez detectado o $kick$, métodos de controle são utilizados para reestabelecer o contróleo primário do poço, restaurando o equilíbrio hidrostático, pode-se citar os métodos convencionais (Método do Sondador, Método do Engenheiro e Métodos Volumétricos) e não convencionais (Bullheading, Stripping e Snubbing) \cite{Iago}.
 
-Um poço de petróleo é perfurado em várias fases, que são revestidas e formam as colunas de revestimento, iniciando com um tubo de pequena extensão e diâmetro maior que os posteriores. Para realizar a perfuração da fase, é necessário um conjunto de ferramentas que constitui a coluna de perfuração, além do fluido ou lama de perfuração. De acordo com \citep{thomas2001fundamentos}, quando a pressão do fluido é inferior a pressão de poros dos fluidos confinados nos poros há um influxo destes para o poço, formando um $kick$. \citep{thomas2001fundamentos} ainda explica que um fluxo indesejado da formação de forma incontrolável gera um $blowout$. 
+Um poço de petróleo é perfurado em várias fases, que são revestidas e formam as colunas de revestimento, iniciando com um tubo de pequena extensão e diâmetro maior que os posteriores. Para realizar a perfuração da fase, é necessário um conjunto de ferramentas que constitui a coluna de perfuração, além do fluido de perfuração. De acordo com \citep{thomas2001fundamentos}, quando a pressão do fluido é inferior a pressão de poros dos fluidos confinados nos poros há um influxo destes para o poço, formando um $kick$. \citep{thomas2001fundamentos} ainda explica que um fluxo indesejado da formação de forma incontrolável gera um $blowout$. 
 
 Segundo \citep{santana2021kick}, um $blowout$ é capaz de causar danos aos equipamentos da sonda, assim como lesões às pessoas que trabalham nela. Em 2010, por exemplo, um $blowout$ ao perfurar o poço de Macondo no golfo do México gerou incêndios e explosões na plataforma que levaram a morte de onze pessoas, além do vazamento de quase 5.000.000 de barris de óleo \citep{nunes2015impactos}. No Brasil, segundo relatório final da ANP \cite{ANP}, um $underground$ $blowout$ (o fluxo de fluidos ocorre de uma formação para outra) em um poço do campo de Frade foi a causa do vazamento de 3.700 barris de petróleo cru no mar.   
 
 Estes e outros incidentes fizeram com que a ANP propusesse a resolução nº 46/2016, na qual são estabelecidos os requisitos e diretrizes para a implementação e operação de um Sistema de Gerenciamento da Integridade de Poços (SGIP) de forma a proteger a vida humana e o meio ambiente, à integridade dos ativos da união, de terceiros e do operador do contrato \citep{resolucao}. No SGIP é importante o funcionamento do Conjunto Solidário de Barreiras (CSB) que se refere a um ou mais elementos de barreira de poço capazes de controlar $kick$ ou $blowout$. O CSB é classificado em primário ou segundário. 
 
-A falha dos elementos do conjunto primário torna necessária uma intervenção através dos elementos do conjunto secundário. A Figura \ref{Fig2} mostra os elementos de barreira de poço dos CSB primário e secundário durante a perfuração. Entre tais, destacam-se o fluido na coluna e o revestimento. É importante garantir a integridade dessas estruturas. A variação permitida para as pressões do fluido de perfuração no poço, segundo \citep{rocha2009projeto}, deve obedecer a janela operacional, ou seja, respeitar os limites das pressões de poros, fratura e colapso. As colunas de revestimento, de acordo com \citep{aadnoy2010modern},  são dimensionadas para suportar $burst$ e colapso, além das cargas axiais.
+A falha dos elementos do conjunto primário torna necessária uma intervenção através dos elementos do conjunto secundário. A Figura \ref{Fig2} mostra os elementos de barreira de poço dos CSB primário e secundário durante a perfuração. Entre tais, destacam-se o fluido na coluna e o revestimento. É importante garantir a integridade dessas estruturas. A variação permitida para as pressões do fluido de perfuração no poço, segundo \citep{rocha2009projeto}, deve obedecer a janela operacional, ou seja, respeitar os limites das pressões de poros, fratura e colapso. As colunas de revestimento, de acordo com \citep{aadnoy2010modern},  são dimensionadas para suportar $burst$ e colapso, além de esforços à tração.
 
 \begin{figure}[!ht]
 \begin{center}
@@ -234,18 +234,145 @@ A falha dos elementos do conjunto primário torna necessária uma intervenção 
 \end{figure}
 %\vspace{8pt}
 
-Na literatura são encontrados alguns trabalhos que envolvem a integridade em fluidos e revestimento. \cite{mendesanalise}, por exemplo, analisam diferentes critérios de assentamento de sapatas de revestimento e definem o peso de fluido de perfuração ótimo a partir da média entre as pressões de poros e de fratura.  \citep{melo2019integrated}, \citep{tenorio} e \citep{tenoriosoeaa}, por exemplo, avaliam a possibilidade de falha em revestimentos considerando os cenários de $kick$ de gás durante a perfuração, cimentação na instalação e uma análise integrada de $kick$ e cimentação, respectivamente. Para tanto, utiliza-se a ferramenta $Casing$ $Well$ (CWELL), a qual foi desenvolvida por \citep{costa} e está disponível no Sistema de Aplicações de Engenharia de Petróleo (SAEP).  
+Na literatura são encontrados alguns trabalhos que envolvem a integridade em fluidos e revestimento. \cite{mendesanalise}, por exemplo, analisam diferentes critérios de assentamento de sapatas de revestimento e definem o peso de fluido de perfuração ótimo a partir da média entre as pressões de poros e de fratura.  \citep{melo2019integrated}, \citep{tenorio} e \citep{tenoriosoeaa}, por exemplo, avaliam a possibilidade de falha em revestimentos considerando os cenários de $kick$ de gás durante a perfuração, cimentação na instalação e uma análise integrada de $kick$ e cimentação, respectivamente. Para tanto, utiliza-se a ferramenta $Casing$ $Well$ (CWELL), a qual foi desenvolvida por \citep{costa} e está disponível no Sistema de Aplicações de Engenharia de Petróleo (SAEP).
 
 Neste contexto, o objetivo do trabalho é uma análise da integridade de elementos de barreira do CSB primário e secundário durante as fases de perfuração. Para tanto, é realizado o estudo de caso de um poço, analisando diferentes fluidos de perfuração e verificando a formação de $kick$ segundo o critério de janela operacional. Além disso, é avaliada a possibilidade de falha nos revestimentos por meio do $CWELL$, considerando os cenários de $kick$ de gás, poço completo de gás e perda de circulação total. 
 
-
 % --------------------------------------------------------------------------
-%\section{Revisão}\label{sec:revisão}%acho interessante não fazer essa seção, mas o conteúdo dela incluir na introdução
+\section{Projeto de revestimento de poços}\label{sec:cen}
 % --------------------------------------------------------------------------
 
+Como mencionado anteriormente, as colunas de revestimento são dimensionadas, considerando tração, $burst$ e colapso. Neste sentido, a API TR 5C3 \citep{american2008technical} estabelece a resistência à tração $R_{t}$ como 
+
+%O CWELL estabele a resistência a esses carregamentos conforme a API TR 5C3 \citep{american2008technical}. Neste sentido, a resistência à tração $R_{t}$ é dada por 
+
+%\vspace{6pt}
+\begin{center}
+\begin{equation}
+R_{t} = A_{s}Y_{p},
+\label{Eq1}
+\end{equation}
+\end{center}
+%\vspace{6pt}
+
+\noindent onde $A_{s}$ e $Y_{p}$ são a área da seção transversal e a tensão mínima de escoamento do revestimento. Por outro lado, a resistência ao $burst$ $R_{b}$ é obtida por
+
+%\vspace{6pt}
+\begin{center}
+\begin{equation}
+R_{b} = 2Y_{p}\frac{0,875t}{D},
+\label{Eq2}
+\end{equation}
+\end{center}
+%\vspace{6pt}
+
+\noindent em que $t$ e $D$ são a espessura e o diâmetro externo do revestimento. É importante destacar que o coeficiente 0,875 da Eq. (\ref{Eq2}) significa uma penalização devido às imperfeições do material durante a fabricação de tubos.
+
+O colapso das colunas de revestimento pode ocorrer nos regimes de escoamento, plástico, transição e elástico.  Sendo assim, para cada um destes há uma resistência ao colapso $R_{cesc}$, $R_{ct}$, $R_{ce}$ e $R_{cp}$, respectivamente, conforme abaixo:
+
+%\vspace{6pt}
+\begin{center}
+\begin{equation}
+R_{cesc} = 2Y_{p} \left [ \dfrac{\left ( \dfrac{D}{t} \right )-1}{\left ( \dfrac{D}{t} \right )^2} \right ],
+\label{Eq1}
+\end{equation}
+\end{center}
+%\vspace{6pt}
+%\vspace{6pt}
+
+\begin{center}
+\begin{equation}
+R_{ct} = Y_{p}\left [ \dfrac{A}{\left ( \dfrac{D}{t} \right )} - B \right ] - C,
+\label{Eq1}
+\end{equation}
+\end{center}
+
+%\vspace{6pt}
+%\vspace{6pt}
+\begin{center}
+\begin{equation}
+R_{ce} = Y_{p}\left [ \dfrac{F}{\left ( \dfrac{D}{t} \right )} - G \right ],
+\label{Eq1}
+\end{equation}
+\end{center}
+%\vspace{6pt}
+%\vspace{6pt}
+
+\begin{center}
+\begin{equation}
+R_{cp} = \dfrac{46,95\cdot 10^6}{ \dfrac{D}{t}\left[ \left ( \dfrac{D}{t} \right )-1 \right ]^2},
+\label{Eq1}
+\end{equation}
+\end{center}
+%\vspace{6pt}
+
+\noindent onde $A$, $B$, $C$, $F$ e $G$ são constantes obtidas por equações empíricas, conforme a seguir:
+
+%\vspace{6pt}
+\begin{center}
+\begin{equation}
+A = 2,8762 + 0,10679\cdot 10^{-5}\cdot Y_{p} + 0,21301 \cdot 10^{-10} \cdot {Y_{p}}^2 - 0,53132 \cdot 10^{-16} \cdot {Y_p}^3,
+\label{Eq1}
+\end{equation}
+\end{center}
+%\vspace{6pt}
+%\vspace{6pt}
+
+\begin{center}
+\begin{equation}
+B = 0,026233 + 0,50609 \cdot 10^{-6} \cdot Y_{p},
+\label{Eq1}
+\end{equation}
+\end{center}
+
+%\vspace{6pt}
+%\vspace{6pt}
+\begin{center}
+\begin{equation}
+C = -465,93 + 0,030867 \cdot Y_{p} - 0,10483 \cdot 10^{-7} \cdot {Y_{p}}^2 + 0,36989 \cdot 10^{-13} \cdot {Y_{p}}^3,
+\label{Eq1}
+\end{equation}
+\end{center}
+%\vspace{6pt}
+%\vspace{6pt}
+
+\begin{center}
+\begin{equation}
+F = \dfrac{46,95\cdot 10^6 \left [ \dfrac{\left ( \dfrac{3B}{A} \right )}{2+\left ( \dfrac{B}{A} \right )} \right ]^3}{Y_{p}\left [ \dfrac{\left ( \dfrac{3B}{A} \right )}{2+\left ( \dfrac{B}{A} \right )} -\dfrac{B}{A} \right ]\left [ 1- \dfrac{\left ( \dfrac{3B}{A} \right )}{2+\left ( \dfrac{B}{A} \right )} \right ]^2},
+\label{Eq1}
+\end{equation}
+\end{center}
+%\vspace{6pt}
+
+\begin{center}
+\begin{equation}
+G = \dfrac{FB}{A}.
+\label{Eq1}
+\end{equation}
+\end{center}
+%\vspace{6pt}
+
+É importante destacar que o regime de colapso vigente no revestimento é determinado conforme a relação entre o diâmetro externo e a espessura do revestimento, além de equações empíricas envolvendo as constantes $A$, $B$, $C$, $F$ e $G$. Em API TR 5C3 \citep{american2008technical} são apresentadas as relações para cada regime. Também é possível avaliar a resistência de forma tridimensional, adaptando o critério de falha de von Mises para os cenários específicos de $burst$ e colapso. Em \citep{costa}, por exemplo, é mostrado o passo a passo. Além disso, a API TR 5C3 \citep{american2008technical} fornece uma envoltória de segurança, a qual é resultado das resistências acima e de fatores de segurança. Esses dois métodos formam uma análise triaxial.
+
+O método de análise triaxial permite a avaliação simultânea da integridade do
+revestimento com base nos cenários críticos de esforços que o sistema de revestimento deve suportar.
+Os esforços atuantes ao longo da profundidade do revestimento são representados graficamente por
+pares ordenados (esforço axial, pressão diferencial). Para garantia de atendimento de integridade
+estrutural do sistema, os valores plotados dos pares ordenados (esforço axial, pressão diferencial)
+devem estar contidos no espaço delimitado pela envoltória da elipse de von Mises e pela envoltória de
+segurança API \citep{santos2021desenvolvimento}. Na Figura \ref{Eq1} é apresentada a elipse de resistência triaxial para tubos de revestimento API.
 
 
-% --------------------------------------------------------------------------
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=0.5]{Figures/elipse.png}
+%\vspace{12pt}
+\caption{Elipse de resistência triaxial. Fonte: \cite{costa}.}
+\label{poco}
+\end{center}
+\end{figure}
+
+%  --------------------------------------------------------------------------
 \section{Cenários de barreira de segurança} \label{sec:cenários}
 % --------------------------------------------------------------------------
 
@@ -352,15 +479,15 @@ Virtual mass & C$_{VM}$ & 0.8 \\[-3pt] \hline
 \vspace{8pt}
 
 
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[scale=1.0]{Figures/Figure1.png}
-\vspace{12pt}
-\caption{Pressure variation along the nozzle: experimental data}
-\label{Fig1}
-\end{center}
-\end{figure}
-\vspace{8pt}
+%\begin{figure}[!ht]
+%\begin{center}
+%\includegraphics[scale=1.0]{Figures/Figure1.png}
+%\vspace{12pt}
+%\caption{Pressure variation along the nozzle: experimental data}
+%\label{Fig1}
+%\end{center}
+%\end{figure}
+%\vspace{8pt}
 
 
 %-------------------------------------------------------------------------
