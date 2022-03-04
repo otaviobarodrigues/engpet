@@ -15,7 +15,8 @@
 \usepackage[portuguese]{babel}
 \usepackage{parskip} 
 \usepackage{setspace}
-
+\usepackage{booktabs}
+\usepackage{multirow}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -254,13 +255,13 @@ Na literatura são encontrados alguns trabalhos que envolvem a integridade em fl
 
 %Neste contexto, o objetivo do trabalho é uma análise da integridade de elementos de barreira do CSB primário e secundário durante as fases de perfuração. Para tanto, é realizado o estudo de caso de um poço, analisando diferentes fluidos de perfuração e verificando a formação de $kick$ segundo o critério de janela operacional. Além disso, é avaliada a possibilidade de falha nos revestimentos por meio do $CWELL$, considerando os cenários de $kick$ de gás, poço completo de gás e perda de circulação total. 
 
-Neste contexto, o objetivo do trabalho é uma análise da integridade de elementos de barreira do CSB secundário durante a fase de perfuração. Para tanto, é realizado o estudo de caso de um poço, admitindo a falha no CSB primário e focando no elemento de barreira secundária de revestimentos. Assim, é avaliada a possibilidade de falha nos revestimentos do poço por meio do $CWELL$, considerando os cenários de $kick$ de gás e perda de circulação total. A principal contribuição deste trabalho em relação aos anteriores é uma análise da integridade do revestimento por meio de um cenário de perda de circulação total, utilizando o CWELL. 
+Neste contexto, o objetivo do trabalho é uma análise da integridade de elementos de barreira do CSB secundário durante a fase de perfuração. Para tanto, é realizado o estudo de caso de um poço, admitindo a falha no CSB primário e focando no elemento de barreira secundária de revestimentos. Assim, é avaliada a possibilidade de falha nos revestimentos do poço por meio do CWELL, considerando os cenários de $kick$ de gás e perda de circulação total. A principal contribuição deste trabalho em relação aos anteriores é uma análise da integridade do revestimento por meio de um cenário de perda de circulação total, utilizando o CWELL. 
 
 % --------------------------------------------------------------------------
 \section{Projeto de revestimento de poços}\label{sec:cen}
 % --------------------------------------------------------------------------
 
-Como mencionado anteriormente, as colunas de revestimento são dimensionadas, considerando tração, $burst$ e colapso. Neste sentido, a API TR 5C3 \citep{american2008technical} estabelece a resistência à tração $R_{t}$ como 
+Como mencionado anteriormente, as colunas de revestimento são dimensionadas, considerando tração, $burst$ e colapso. Neste sentido, o API TR 5C3 \citep{american2008technical} estabelece a resistência à tração $R_{t}$ como 
 
 %O CWELL estabele a resistência a esses carregamentos conforme a API TR 5C3 \citep{american2008technical}. Neste sentido, a resistência à tração $R_{t}$ é dada por 
 
@@ -342,7 +343,7 @@ P_{colapso} = - \dfrac{\sigma_{z}+\sqrt{4Y_{p}^2-12\tau_{ha}^2-3\sigma_{z}^2}(D^
 \end{center}
 
 
-\noindent em que $d$ é o diâmetro interno do revestimento, $\sigma_{eq}$,  $\sigma_{z}$, $\sigma_{h}$, $\sigma_{r}$, $\tau_{ha}$ são as tensões de von Mises, axial, tangencial, radial e cisalhamento torcional, respectivamente. \citep{costa} mostra em detalhes o passo a passo para atingir as equações anteriores. Além disso, a API TR 5C3 \citep{american2008technical} fornece uma envoltória de segurança, a qual é resultado das resistências acima e mais adiante será ilustrada. Esses dois métodos compõem uma análise triaxial.
+\noindent em que $d$ é o diâmetro interno do revestimento, $\sigma_{eq}$,  $\sigma_{z}$, $\sigma_{h}$, $\sigma_{r}$, $\tau_{ha}$ são as tensões de von Mises, axial, tangencial, radial e cisalhamento torcional, respectivamente. \citep{costa} mostra em detalhes o passo a passo para atingir as equações anteriores. Além disso, o API TR 5C3 \citep{american2008technical} fornece uma envoltória de segurança, a qual é resultado das resistências acima e mais adiante será ilustrada. Esses dois métodos compõem uma análise triaxial.
 
 
 %\vspace{6pt}
@@ -465,8 +466,8 @@ Produção & 7 & 0 & 1200 & 2400 & 8 1/2 & 12 & C75 & 32 \\ \hline
 \caption{Fatores de segurança de projeto}
 \label{tab:fatores}
 \begin{tabular}{c|c|c|c}
-Colapso & Pressão Interna & Tração/Compressão & Triaxial \\ \hline
-1.00 & 1.10 & 1.30 & 1.25
+Colapso & $Burst$ & Tração & Triaxial \\ \hline
+1,00 & 1,10 & 1,30 & 1,25
 \end{tabular}
 \end{table}
 
@@ -488,7 +489,21 @@ A Figura~\ref{fig:kickgas} detalha os dados utilizados para a simulação de um 
 \end{center}
 \end{figure}
 
+A Tabela \ref{Eq1} apresenta as resistências à tração, ao colapso e ao $burst$ nos revestimentos do poço. 
 
+\begin{table}
+\centering
+\caption{Resistência das colunas de revestimento.}
+\begin{tabular}{c|c|c|c}
+Resistência     & \begin{tabular}[c]{@{}c@{}}Revestimento Condutor\\(Tubo H40)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Revestimento Intermediário\\(Tubo K55)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Revestimento de Produção\\(Tubo C75)\end{tabular}  \\ 
+\hline
+Tração [klbf]   & 1076,71                                                                   & 961,80                                                                         & 698,00                                                                        \\
+$Burst$ [psi] & 1533,00                                                                   & 3094,39                                                                        & 8493,75                                                                       \\
+Colapso [psi]   & 515,47                                                                    & 1539,51                                                                        & 8201,37                                                                      
+\end{tabular}
+\end{table}
+
+Na Figura \ref{fig:resultsF1}(a) é apresentada a análise triaxial do revestimento condutor. A envoltória dos esforços de circulação total encontra-se no interior dos limites API e da elipse de von Mises, apontando que não há falha por ELU e ELS.
 
 
 
