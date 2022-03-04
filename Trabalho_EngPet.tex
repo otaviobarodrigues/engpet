@@ -1,4 +1,4 @@
- %% --------------------------------------------------------------------------
+%% --------------------------------------------------------------------------
 % LaTeX template for the XLII CILAMCE-PANACME.
 %
 % This latex document tries to copy the Microsoft Word template.
@@ -137,7 +137,8 @@
 
 % --------------------------------------------------------------------------
 % PLEASE, EDIT THIS!
-\fancyhead[LE]{\footnotesize \textit{Avaliação da integridade de barreiras de poço primária e secundária em cenários de $kick$ de gás e perda de circulação total}}
+%\fancyhead[LE]{\footnotesize \textit{Avaliação da integridade de elemento de barreira de poço em cenários de $kick$ de gás e perda de circulação total}}
+\fancyhead[LE]{\footnotesize \textit{Integridade de elemento de barreira de poço em cenários de perfuração: um estudo de caso}}
 \fancyhead[RO]{\footnotesize \textit{G. L. L. Santos, O. B. A. Rodrigues, J. P. L. Santos}}
 % --------------------------------------------------------------------------
 
@@ -160,8 +161,10 @@
 % --------------------------------------------------------------------------
 
 \noindent
+%\textbf{\Large
+%Avaliação da integridade de elemento de barreira de poço em cenários de \textit{kick} de gás e perda de circulação total} 
 \textbf{\Large
-Avaliação da integridade de barreiras de poço primária e secundária em cenários de \textit{kick} de gás e perda de circulação total} 
+Integridade de elemento de barreira de poço em cenários de perfuração: um estudo de caso} 
 \vspace{18pt} % <- keep this vertical space!
 
 % --------------------------------------------------------------------------
@@ -236,7 +239,9 @@ A falha dos elementos do conjunto primário torna necessária uma intervenção 
 
 Na literatura são encontrados alguns trabalhos que envolvem a integridade em fluidos e revestimento. \cite{mendesanalise}, por exemplo, analisam diferentes critérios de assentamento de sapatas de revestimento e definem o peso de fluido de perfuração ótimo a partir da média entre as pressões de poros e de fratura.  \citep{melo2019integrated}, \citep{tenorio} e \citep{tenoriosoeaa}, por exemplo, avaliam a possibilidade de falha em revestimentos considerando os cenários de $kick$ de gás durante a perfuração, cimentação na instalação e uma análise integrada de $kick$ e cimentação, respectivamente. Para tanto, utiliza-se a ferramenta $Casing$ $Well$ (CWELL), a qual foi desenvolvida por \citep{costa} e está disponível no Sistema de Aplicações de Engenharia de Petróleo (SAEP).
 
-Neste contexto, o objetivo do trabalho é uma análise da integridade de elementos de barreira do CSB primário e secundário durante as fases de perfuração. Para tanto, é realizado o estudo de caso de um poço, analisando diferentes fluidos de perfuração e verificando a formação de $kick$ segundo o critério de janela operacional. Além disso, é avaliada a possibilidade de falha nos revestimentos por meio do $CWELL$, considerando os cenários de $kick$ de gás, poço completo de gás e perda de circulação total. 
+%Neste contexto, o objetivo do trabalho é uma análise da integridade de elementos de barreira do CSB primário e secundário durante as fases de perfuração. Para tanto, é realizado o estudo de caso de um poço, analisando diferentes fluidos de perfuração e verificando a formação de $kick$ segundo o critério de janela operacional. Além disso, é avaliada a possibilidade de falha nos revestimentos por meio do $CWELL$, considerando os cenários de $kick$ de gás, poço completo de gás e perda de circulação total. 
+
+Neste contexto, o objetivo do trabalho é uma análise da integridade de elementos de barreira do CSB secundário durante a fase de perfuração. Para tanto, é realizado o estudo de caso de um poço, admitindo a falha no CSB primário e focando no elemento de barreira secundária de revestimentos. Assim, é avaliada a possibilidade de falha nos revestimentos do poço por meio do $CWELL$, considerando os cenários de $kick$ de gás e perda de circulação total. A principal contribuição deste trabalho em relação aos anteriores é uma análise da integridade do revestimento por meio de um cenário de perda de circulação total, utilizando o CWELL. 
 
 % --------------------------------------------------------------------------
 \section{Projeto de revestimento de poços}\label{sec:cen}
@@ -306,53 +311,86 @@ R_{cp} = \dfrac{46,95\cdot 10^6}{ \dfrac{D}{t}\left[ \left ( \dfrac{D}{t} \right
 \end{center}
 %\vspace{6pt}
 
-\noindent onde $A$, $B$, $C$, $F$ e $G$ são constantes obtidas por equações empíricas, conforme a seguir:
+\noindent onde $A$, $B$, $C$, $F$ e $G$ são constantes obtidas por equações empíricas em função da tensão de escoamento. É importante destacar que o regime de colapso vigente no revestimento varia conforme a relação entre o diâmetro externo e a espessura do revestimento, além das constantes $A$, $B$, $C$, $F$ e $G$. Em API TR 5C3 \citep{american2008technical} são apresentadas as relações para cada regime, assim como as equações das constantes. 
 
-%\vspace{6pt}
-\begin{center}
-\begin{equation}
-A = 2,8762 + 0,10679\cdot 10^{-5}\cdot Y_{p} + 0,21301 \cdot 10^{-10} \cdot {Y_{p}}^2 - 0,53132 \cdot 10^{-16} \cdot {Y_p}^3,
-\label{Eq1}
-\end{equation}
-\end{center}
-%\vspace{6pt}
-%\vspace{6pt}
+Também é possível avaliar a resistência de forma tridimensional, a partir do critério de falha de von Mises. Assim, são feitas algumas considerações como definição de tensões em cilindros e características específicas do cenário de $burst$ e colapso, resultando nas seguintes semi-elipses para as falhas por $burst$ ($P_{burst}$) e colapso ($P_{colapso}$):
+
 
 \begin{center}
-\begin{equation}
-B = 0,026233 + 0,50609 \cdot 10^{-6} \cdot Y_{p},
-\label{Eq1}
+\begin{equation}\label{Eq1}
+P_{burst} = \dfrac{d^2\sigma_{z}+\sqrt{3D^4Y_p^2-9D^4\tau_{ha}^2-3D^4\sigma_z^2-Y_p^2d^4-3d^4\tau_{ha}^2}(D^2-d^2)}{3D^4+d^4},
 \end{equation}
 \end{center}
 
-%\vspace{6pt}
-%\vspace{6pt}
 \begin{center}
-\begin{equation}
-C = -465,93 + 0,030867 \cdot Y_{p} - 0,10483 \cdot 10^{-7} \cdot {Y_{p}}^2 + 0,36989 \cdot 10^{-13} \cdot {Y_{p}}^3,
-\label{Eq1}
+\begin{equation}\label{Eq1}
+P_{colapso} = - \dfrac{\sigma_{z}+\sqrt{4Y_{p}^2-12\tau_{ha}^2-3\sigma_{z}^2}(D^2-d^2)}{4D^2},
 \end{equation}
 \end{center}
+
+
+\noindent em que $d$ é o diâmetro interno do revestimento, $\sigma_{eq}$,  $\sigma_{z}$, $\sigma_{h}$, $\sigma_{r}$, $\tau_{ha}$ são as tensões de von Mises, axial, tangencial, radial e cisalhamento torcional, respectivamente. \citep{costa} mostra em detalhes o passo a passo para atingir as equações anteriores. Além disso, a API TR 5C3 \citep{american2008technical} fornece uma envoltória de segurança, a qual é resultado das resistências acima e mais adiante será ilustrada. Esses dois métodos compõem uma análise triaxial.
+
+
+%\vspace{6pt}
+%\begin{center}
+%\begin{equation}
+%A = 2,8762 + 0,10679\cdot 10^{-5}\cdot Y_{p} + 0,21301 %\cdot 10^{-10} \cdot {Y_{p}}^2 - 0,53132 \cdot 10^{-16} \cdot {Y_p}^3,
+%\label{Eq1}
+%\end{equation}
+%\end{center}
 %\vspace{6pt}
 %\vspace{6pt}
 
-\begin{center}
-\begin{equation}
-F = \dfrac{46,95\cdot 10^6 \left [ \dfrac{\left ( \dfrac{3B}{A} \right )}{2+\left ( \dfrac{B}{A} \right )} \right ]^3}{Y_{p}\left [ \dfrac{\left ( \dfrac{3B}{A} \right )}{2+\left ( \dfrac{B}{A} \right )} -\dfrac{B}{A} \right ]\left [ 1- \dfrac{\left ( \dfrac{3B}{A} \right )}{2+\left ( \dfrac{B}{A} \right )} \right ]^2},
-\label{Eq1}
-\end{equation}
-\end{center}
+%\begin{center}
+%\begin{equation}
+%B = 0,026233 + 0,50609 \cdot 10^{-6} \cdot Y_{p},
+%\label{Eq1}
+%\end{equation}
+%\end{center}
+
+%\vspace{6pt}
+%\vspace{6pt}
+%\begin{center}
+%\begin{equation}
+%C = -465,93 + 0,030867 \cdot Y_{p} - 0,10483 \cdot 10^{-7} \cdot {Y_{p}}^2 + 0,36989 \cdot 10^{-13} \cdot {Y_{p}}^3,
+%\label{Eq1}
+%\end{equation}
+%\end{center}
+%\vspace{6pt}
 %\vspace{6pt}
 
-\begin{center}
-\begin{equation}
-G = \dfrac{FB}{A}.
-\label{Eq1}
-\end{equation}
-\end{center}
+%\begin{center}
+%\begin{equation}
+%F = \dfrac{46,95\cdot 10^6 \left [ \dfrac{\left ( %%\dfrac{3B}{A} \right )}{2+\left ( \dfrac{B}{A} \right )} \right ]^3}{Y_{p}\left [ \dfrac{\left ( \dfrac{3B}{A} \right )}{2+\left ( \dfrac{B}{A} \right )} -\dfrac{B}{A} \right ]\left [ 1- \dfrac{\left ( \dfrac{3B}{A} \right )}{2+\left ( \dfrac{B}{A} \right )} \right ]^2},
+%\label{Eq1}
+%\end{equation}
+%\end{center}
 %\vspace{6pt}
 
-É importante destacar que o regime de colapso vigente no revestimento é determinado conforme a relação entre o diâmetro externo e a espessura do revestimento, além de equações empíricas envolvendo as constantes $A$, $B$, $C$, $F$ e $G$. Em API TR 5C3 \citep{american2008technical} são apresentadas as relações para cada regime. Também é possível avaliar a resistência de forma tridimensional, adaptando o critério de falha de von Mises para os cenários específicos de $burst$ e colapso. Em \citep{costa}, por exemplo, é mostrado o passo a passo. Além disso, a API TR 5C3 \citep{american2008technical} fornece uma envoltória de segurança, a qual é resultado das resistências acima e de fatores de segurança. Esses dois métodos formam uma análise triaxial.
+%\begin{center}
+%\begin{equation}
+%G = \dfrac{FB}{A}.
+%\label{Eq1}
+%\end{equation}
+%\end{center}
+%\vspace{6pt}
+
+%É importante destacar que o regime de colapso vigente no revestimento é determinado conforme a relação entre o diâmetro externo e a espessura do revestimento, além de equações empíricas envolvendo as constantes $A$, $B$, $C$, $F$ e $G$. Em API TR 5C3 \citep{american2008technical} são apresentadas as relações para cada regime. 
+
+%Também é possível avaliar a resistência de forma tridimensional, a partir do critério de falha de von Mises:
+
+%\begin{center}
+%\begin{equation}
+%\sigma_{eq}=\dfrac{1}{\sqrt{2}}\sqrt{(\sigma_{z}-%\sigma_{h})^2+(\sigma_{h}-\sigma_{r})^2+6\tau_{ha} },
+%\label{Eq1}
+%\end{equation}
+%\end{center}
+
+%\noindent em que $\sigma_{eq}$,  $\sigma_{z}$, $\sigma_{h}$, $\sigma_{r}$, $\tau_{ha}$ são as tensões de von Mises, axial, tangencial, radial e cisalhamento torcional, respectivamente. Assim, são feitas algumas considerações como a definição de tensões em cilindros e características específicas do cenário de $burst$ e colapso. Em \citep{costa}, por exemplo, é mostrado em detalhes o passo a passo. Além disso, a API TR 5C3 \citep{american2008technical} fornece uma envoltória de segurança, a qual é resultado das resistências acima e de fatores de segurança. Esses dois métodos compõem uma análise triaxial.
+
+
+%Em \citep{costa} é mostrado em detalhes o passo a passo para atingir as equações anteriores. Além disso, a API TR 5C3 \citep{american2008technical} fornece uma envoltória de segurança, a qual é resultado das resistências acima e de fatores de segurança. Esses dois métodos compõem uma análise triaxial.
 
 O método de análise triaxial permite a avaliação simultânea da integridade do
 revestimento com base nos cenários críticos de esforços que o sistema de revestimento deve suportar.
@@ -360,17 +398,17 @@ Os esforços atuantes ao longo da profundidade do revestimento são representado
 pares ordenados (esforço axial, pressão diferencial). Para garantia de atendimento de integridade
 estrutural do sistema, os valores plotados dos pares ordenados (esforço axial, pressão diferencial)
 devem estar contidos no espaço delimitado pela envoltória da elipse de von Mises e pela envoltória de
-segurança API \citep{santos2021desenvolvimento}. Na Figura \ref{Eq1} é apresentada a elipse de resistência triaxial para tubos de revestimento API.
-
+segurança API \citep{santos2021desenvolvimento}. Na Figura \ref{poco2} é apresentada a elipse de resistência triaxial para tubos de revestimento API. Os procedimentos apresentados anteriormente são a base dos cálculos realizados pelo CWELL a fim de avaliar ou dimensionar revestimentos com a possibilidade de adicionar os fatores de segurança.
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[scale=0.5]{Figures/elipse.png}
+\includegraphics[scale=0.6]{Figures/elipse.png}
 %\vspace{12pt}
-\caption{Elipse de resistência triaxial. Fonte: \cite{costa}.}
-\label{poco}
+\caption{Elipse de resistência triaxial de revestimento. Fonte: \cite{costa}.}
+\label{poco2}
 \end{center}
 \end{figure}
+
 
 %  --------------------------------------------------------------------------
 \section{Cenários de barreira de segurança} \label{sec:cenários}
@@ -378,9 +416,7 @@ segurança API \citep{santos2021desenvolvimento}. Na Figura \ref{Eq1} é apresen
 
 O cenário de estudo adotado é apresentado na Figura~\ref{fig:poco}. A Tabela~\ref{tab:poco} apresenta os valores numéricos associados a configuração do poço adotado. Este caso de estudo foi idealizado por \citep{costa}. Neste trabalho é avaliada a perda total de circulação nas fases 1 (revestimento condutor) e 2 (revestimento intermediário). Adicionalmente, na terceira fase (revestimento de produção), é avaliado um cenário de \textit{kick} de gás.  
 
-A perda de circulação é a invasão de fluido de perfuração para a formação através de fraturas existentes ou provocadas em formações com alta permo-porosidade (devido à presença de formação inconsolidada, existência de falhas, fraturas naturais, cavernas, entre outros) ou em zonas depletadas \citep{Chieza2011}. Na perda de circulação total não há retorno do fluido para a superfície. Neste caso, tem-se uma falha no CSB primário (fluido de perfuração), pois a invasão da lama na formação reduz o nível de fluido de perfuração no anular, diminuindo a pressão hidrostática \citep{Chieza2011}. Caso pressão hidrostática alcançar níveis abaixo da pressão de poros, a perda total de circulação pode ocasionar um \textit{kick}. 
-
-Admitindo que a barreira primária seja rompida, as resistências dos revestimentos que compõem o poço são analisadas, observe na Figura~\ref{Fig2} que o revestimento é um dos elementos dos CSB secundário.
+A perda de circulação é a invasão de fluido de perfuração para a formação através de fraturas existentes ou provocadas em formações com alta permo-porosidade (devido à presença de formação inconsolidada, existência de falhas, fraturas naturais, cavernas, entre outros) ou em zonas depletadas \citep{Chieza2011}. Na perda de circulação total não há retorno do fluido para a superfície. Neste caso, tem-se uma falha no CSB primário (fluido de perfuração), pois a invasão da lama na formação reduz o nível de fluido de perfuração no anular, diminuindo a pressão hidrostática \citep{Chieza2011}. Caso pressão hidrostática alcançar níveis abaixo da pressão de poros, a perda total de circulação pode ocasionar um \textit{kick}. Admitindo que a barreira primária seja rompida, as resistências dos revestimentos que compõem o poço são analisadas, observe na Figura~\ref{Fig2} que o revestimento é um dos elementos dos CSB secundário.
 
 \begin{figure}[!ht]
 \begin{center}
@@ -412,13 +448,13 @@ Produção & 7 & 0 & 1200 & 2400 & 8 1/2 & 12 & C75 & 32 \\ \hline
 \section{Resultados e discussão} \label{sec:resultados}
 % --------------------------------------------------------------------------
 
-A Figura~\ref{fig:kickgas} detalha os dados utilizados para a simulação de um \textit{kick} de gás na interface SAEP. Os valores numéricos dos parâmetros foram extraídos de~\citep{costa2}.
+A Figura~\ref{fig:kickgas} detalha os dados utilizados para a simulação de um \textit{kick} de gás na interface SAEP. Os valores numéricos dos parâmetros foram extraídos de \citep{costa2}.
 
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[scale=0.4]{Figures/kickgas.png}
 %\vspace{12pt}
-\caption{Dados para simulação de um \textit{kick} de gás na interface SAEP.}
+\caption{Dados para simulação de um \textit{kick} de gás no CWELL.}
 \label{fig:kickgas}
 \end{center}
 \end{figure}
