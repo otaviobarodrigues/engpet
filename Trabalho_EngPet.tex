@@ -230,7 +230,7 @@ Adicionalmente, a Figura~\ref{fig:graph} mostra a ocorrência de $blowout$ no ci
 \begin{center}
 \includegraphics[scale=0.35]{Figures/poco2_teste.pdf}
 \vspace{12pt}
-\caption{\centering{$Blowout$ no ciclo de vida de poços e esquema da evolução de um $kick$ para um $blowout$. Fonte: Adaptado de \citep{inbook}.}}
+\caption{\centering{Esquema da evolução de um $kick$ para um $blowout$. Fonte: Adaptado de \citep{inbook}. $Blowout$ no ciclo de vida de poços.}}
 \label{fig:graph}
 \end{center}
 \end{figure}
@@ -433,9 +433,13 @@ segurança API \citep{santos2021desenvolvimento}. Os procedimentos apresentados 
 \section{Cenários de barreira de segurança} \label{sec:cenários}
 % --------------------------------------------------------------------------
 
-O cenário de estudo adotado é apresentado na Figura~\ref{fig:poco}. A Tabela~\ref{tab:poco} apresenta os valores numéricos associados a configuração do poço adotado. Os fatores de segurança estão disponíveis na Tabela~\ref{tab:fatores}. Este caso de estudo foi idealizado por \citep{costa}. Neste trabalho é avaliada a perda total de circulação nas fases 1 (revestimento condutor) e 2 (revestimento intermediário). Adicionalmente, na terceira fase (revestimento de produção), é avaliado um cenário de \textit{kick} de gás.  
+O cenário de estudo adotado é apresentado na Figura~\ref{fig:poco}. A Tabela~\ref{tab:poco} apresenta os valores numéricos associados a configuração do poço adotado. Os fatores de segurança estão disponíveis na Tabela~\ref{tab:fatores}. Este caso de estudo é semelhante ao apresentado por \citep{costa}. Neste trabalho é avaliada a perda total de circulação nas fases 1 (revestimento condutor) e 2 (revestimento de superfície). Adicionalmente, na terceira fase (revestimento intermediário), é avaliado um cenário de \textit{kick} de gás.  
 
-A perda de circulação é a invasão de fluido de perfuração para a formação através de fraturas existentes ou provocadas em formações com alta permo-porosidade (devido à presença de formação inconsolidada, existência de falhas, fraturas naturais, cavernas, entre outros) ou em zonas depletadas \citep{Chieza2011}. Na perda de circulação total não há retorno do fluido para a superfície. Neste caso, tem-se uma falha no CSB primário (fluido de perfuração), pois a invasão da lama na formação reduz o nível de fluido de perfuração no anular, diminuindo a pressão hidrostática \citep{Chieza2011}. Caso pressão hidrostática alcançar níveis abaixo da pressão de poros, a perda total de circulação pode ocasionar um \textit{kick}. Admitindo que a barreira primária seja rompida, as resistências dos revestimentos que compõem o poço são analisadas, observe na Figura~\ref{Fig2} que o revestimento é um dos elementos dos CSB secundário.
+A perda de circulação é a invasão de fluido de perfuração para a formação através de fraturas existentes ou provocadas em formações com alta permo-porosidade (devido à presença de formação inconsolidada, existência de falhas, fraturas naturais, cavernas, entre outros) ou em zonas depletadas \citep{Chieza2011}. Na perda de circulação total não há retorno do fluido para a superfície. Neste caso, tem-se uma falha no CSB primário (fluido de perfuração), pois a invasão da lama na formação reduz o nível de fluido de perfuração no anular, diminuindo a pressão hidrostática \citep{Chieza2011}. Caso pressão hidrostática alcançar níveis abaixo da pressão de poros, a perda total de circulação pode ocasionar um \textit{kick}.
+
+Durante o \textit{kick} pode ocorrer a invasão de óleo, água ou gás provenientes da formação perfurada. A situação mais crítica ocorre quando a invasão é feita por gás. Esse fato se deve a sua maior expansão quando este está se deslocando em direção a superfície, causando uma maior diminuição da densidade da mistura \citep{da2011tecnologia}.
+
+Admitindo que a barreira primária seja rompida, as resistências dos revestimentos que compõem o poço são analisadas, observe na Figura~\ref{Fig2} que o revestimento é um dos elementos dos CSB secundário.
 
 \begin{figure}[H]
 \begin{center}
@@ -455,11 +459,12 @@ A perda de circulação é a invasão de fluido de perfuração para a formaçã
 \caption{Valores numéricos associados ao caso de estudo. Fonte: Adaptado de \citep{costa}.}
 \label{tab:poco}
 \begin{tabular}{ccccccccc}
-\multicolumn{1}{c|}{\multirow{2}{*}{Revestimento}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Diâmetro \\ externo {[}pol{]}\end{tabular}}} & \multicolumn{3}{c|}{MD {[}m{]}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Broca \\ {[}pol{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Densidade \\ da lama  {[}lb/gal{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{Grade}} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Peso \\ linear {[}lb/ft{]}\end{tabular}} \\ \cline{3-5}
-\multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & Topo & TOC & \multicolumn{1}{c|}{Base} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} &  \\ \hline
-Condutor & 20 & 0 & 0 & 400 & 26 & 9,5 & H40 & 94 \\
-Intermediário & 13 3/8 & 0 & 0 & 1400 & 17 1/2 & 17,5 & K55 & 61 \\
-Produção & 7 & 0 & 1200 & 2400 & 8 1/2 & 12 & C75 & 32 \\ \hline
+\multicolumn{1}{c|}{\multirow{2}{*}{Revestimento}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Diâmetro\\  Externo {[}pol{]}\end{tabular}}} & \multicolumn{3}{c|}{MD {[}m{]}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Broca \\ {[}pol{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Densidade \\ da lama {[}lb/gal{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{Grade}} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Peso \\ linear {[}lb/ft{]}\end{tabular}} \\ \cline{3-5}
+\multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & Hanger & TOC & \multicolumn{1}{c|}{Base} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} &  \\ \hline
+Condutor & 20 & 0 & 0 & 400 & 26 & 9.5 & H40 & 94 \\
+Superfície & 13 3/8 & 0 & 0 & 1400 & 17 1/2 & 17.5 & K55 & 61 \\
+Intermediário & 7 & 0 & 1200 & 2400 & 8 1/2 & 12 & C75 & 20 \\
+Produção & 5 & 0 & 1700 & 3400 & 6 5/8 & 14 & C75 & 18 \\ \hline
 \end{tabular}
 \end{table}
 
