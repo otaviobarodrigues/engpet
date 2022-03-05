@@ -494,13 +494,13 @@ A Figura~\ref{fig:kickgas} detalha os dados utilizados para a simulação de um 
 \section{Resultados e discussão} \label{sec:resultados}
 % --------------------------------------------------------------------------
 
-A Tabela \ref{tab_res} apresenta as resistências dos revestimentos de poço obtidas pelo CWELL. Do revestimento condutor ao de produção nota-se uma diminuição da resistência axial. Por outro lado, as resistências por $burst$ e colapso aumentam na direção do revestimento condutor ao de produção. Assim, há uma tendência de os esforços serem mais acentuados por tração no revestimento condutor e de esforços por pressão mais acentuados nos revestimentos intermediário e de produção. 
+A Tabela \ref{tab_res} apresenta as resistências dos revestimentos de poço obtidas pelo CWELL. Do revestimento condutor ao intermediário nota-se uma diminuição da resistência à tração. Por outro lado, as resistências por $burst$ e colapso aumentam na direção do revestimento condutor ao intermediário. Assim, há uma tendência de o dimensionamento realizado ser focado em esforços mais acentuados por tração no revestimento condutor e de esforços mais acentuados por pressão nos revestimentos de superfície e intermediário. 
 
 \begin{table}[H]
 \centering
 \caption{Resistência das colunas de revestimento.}
 \begin{tabular}{c|c|c|c}
-Resistência     & \begin{tabular}[c]{@{}c@{}}Revestimento Condutor\\(Tubo H40)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Revestimento Intermediário\\(Tubo K55)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Revestimento de Produção\\(Tubo C75)\end{tabular}  \\ 
+Resistência     & \begin{tabular}[c]{@{}c@{}}Revestimento Condutor\\(Tubo H40)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Revestimento de Superfície\\(Tubo K55)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Revestimento Intermediário\\(Tubo C75)\end{tabular}  \\ 
 \hline
 Tração [klbf]   & 1076,71                                                                   & 961,80                                                                         & 698,00                                                                        \\
 $Burst$ [psi] & 1533,00                                                                   & 3094,39                                                                        & 8493,75                                                                       \\
@@ -509,7 +509,7 @@ Colapso [psi]   & 515,47                                                        
 \label{tab_res}
 \end{table}
 
-Na Figura \ref{fig:resultsF1}(a) são apresentadas as envoltórias de resistência e de perda de circulação total no revestimento condutor (Tubo H40). Os esforços pela perda  encontram-se no interior dos limites API e da elipse de von Mises, apontando que as resistências calculadas com base nos fatores de segurança são atendidas, bem como o comportamento constitutivo do tubo em regime elástico, respectivamente. A Figura \ref{fig:resultsF1}(b) demonstra o contrário para o revestimento intermediário (Tubo K55), ou seja, os esforços por perda de circulação em parte da coluna ultrapassam a região segura, indicando riscos à integridade desse revestimento e a necessidade da escolha de um novo tubo.
+Na Figura \ref{fig:resultsF1}(a) são apresentadas as envoltórias de resistência e os pares ordenados de pressão e esforço, considerando a perda por circulação total no revestimento condutor (Tubo H40). Os esforços pela perda  encontram-se no interior dos limites API e da elipse de von Mises, apontando que as resistências calculadas com base nos fatores de segurança são atendidas, bem como o comportamento constitutivo do tubo em regime elástico após o carregamento. A Figura \ref{fig:resultsF1}(b) demonstra o contrário para o revestimento intermediário (Tubo K55), ou seja, os esforços por perda de circulação em parte da coluna ultrapassam a região segura, indicando a plastificação de parte da coluna e a possibilidade da escolha de um novo tubo a depender do rigos da empresa operadora.
 
 
 \begin{figure}[H]
@@ -518,12 +518,12 @@ Na Figura \ref{fig:resultsF1}(a) são apresentadas as envoltórias de resistênc
 \subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase1/tri.png}}\qquad
 \subfigure[ref2][]{\includegraphics[width=7.6cm]{./Figures/fase2/tri.png}}
 %\subfigure[ref3][]{\includegraphics[width=7.6cm]{./Figures/fase1/tracao.png}}
-\caption{\centering{Análise triaxial nos revestimentos: (a) condutor e (b) intermediário.}}
+\caption{\centering{Análise triaxial nos revestimentos: (a) condutor e (b) superfície.}}
 \label{fig:resultsF1}
 \end{center}
 \end{figure}
 
-Neste sentido, são avaliados tubos com grades M65, C75, L80, N80 e C90, de modo que apenas o tubo com a última grade forneceu um resultado exclusivamente no domínio seguro, conforme ilustrado na Figura \ref{fig:resultsF2}(a). Os outros tubos foram evoluindo gradativamente. Aqueles com grades L80 e N80, por exemplo, chegaram a ter o esforço de tração mínimo sobre a elipse de von Mises e os limites do API respeitados, conforme ilustrado na Figura \ref{fig:resultsF2}(b). Porém, sendo bastante rigoroso, haveria a iminência de plastificação. Desta forma, uma sugestão que pode garantir a segurança estrutural e minimizar o custo é a utilização de um revestimento intermediário com seções combinadas. 
+Neste sentido, são avaliados tubos com grau M65, C75, L80, N80 e C90, de modo que apenas o tubo com o último grau forneceu envoltórias de segurança que compreendem os esforços no domínio seguro, conforme ilustrado na Figura \ref{fig:resultsF2}(a). Os outros tubos foram evoluindo gradativamente no atendimento aos critérios de segurança. Inclusive, aqueles com grau L80 e N80, por exemplo, chegaram a ter o esforço de tração mínimo sobre a elipse de von Mises e os limites do API respeitados, conforme ilustrado na Figura \ref{fig:resultsF2}(b). Porém, seguindo o critério de uma operadora rigorosa, haveria a iminência de plastificação. Desta forma, uma sugestão que pode garantir a segurança estrutural quanto ao estado limite de serviço e minimizar o custo é a utilização de um revestimento intermediário com seções combinadas. 
 
 \begin{figure}[H]
 \begin{center}
@@ -531,7 +531,7 @@ Neste sentido, são avaliados tubos com grades M65, C75, L80, N80 e C90, de modo
 \subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase2/c90.png}}\qquad
 \subfigure[ref2][]{\includegraphics[width=7.6cm]{./Figures/fase2/l80.png}}
 %\subfigure[ref3][]{\includegraphics[width=7.6cm]{./Figures/fase1/tracao.png}}
-\caption{\centering{Análise triaxial no revestimento intermediário: (a) C90 e (b) L80.}}
+\caption{\centering{Análise triaxial no revestimento de superfície: (a) C90 e (b) L80.}}
 \label{fig:resultsF2}
 \end{center}
 \end{figure}

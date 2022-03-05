@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  4 MAR 2022 23:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  5 MAR 2022 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,12 +474,6 @@ LaTeX Warning: Label `Eq1' multiply defined.
 
 LaTeX Warning: Label `Eq1@cref' multiply defined.
 
-
-LaTeX Warning: Label `fig:resultsF3' multiply defined.
-
-
-LaTeX Warning: Label `fig:resultsF3@cref' multiply defined.
-
 )
 \openout1 = `Trabalho_EngPet.aux'.
 
@@ -693,11 +687,11 @@ Package rerunfilecheck Info: File `Trabalho_EngPet.out' has not changed.
 Here is how much of TeX's memory you used:
  15204 strings out of 478659
  260726 string characters out of 2845920
- 587429 words of memory out of 3000000
+ 587426 words of memory out of 3000000
  33037 multiletter control sequences out of 15000+600000
  416454 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,63p,1227b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,63p,1227b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/obaro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/obaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/obaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -709,7 +703,7 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/obaro/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/obaro/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/obaro/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Trabalho_EngPet.pdf (8 pages, 731162 bytes).
+Output written on Trabalho_EngPet.pdf (8 pages, 731402 bytes).
 PDF statistics:
  269 PDF objects out of 1000 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
