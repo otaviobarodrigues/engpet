@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  5 MAR 2022 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  5 MAR 2022 16:20
 entering extended mode
 **./Trabalho_EngPet.tex
 (Trabalho_EngPet.tex
@@ -654,7 +654,7 @@ Package pdftex.def Info: Figures/elipse.png  used on input line 354.
 <Figures/poco.pdf, id=139, 529.98pt x 393.47pt>
 File: Figures/poco.pdf Graphic file (type pdf)
 <use Figures/poco.pdf>
-Package pdftex.def Info: Figures/poco.pdf  used on input line 448.
+Package pdftex.def Info: Figures/poco.pdf  used on input line 446.
 (pdftex.def)             Requested size: 211.98824pt x 157.38521pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -663,7 +663,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Figures/kickgas.png, id=154, 441.90094pt x 441.90094pt>
 File: Figures/kickgas.png Graphic file (type png)
 <use Figures/kickgas.png>
-Package pdftex.def Info: Figures/kickgas.png  used on input line 491.
+Package pdftex.def Info: Figures/kickgas.png  used on input line 489.
 (pdftex.def)             Requested size: 176.75723pt x 176.75723pt.
 
 Underfull \vbox (badness 2205) has occurred while \output is active []
@@ -672,22 +672,22 @@ Underfull \vbox (badness 2205) has occurred while \output is active []
 <./Figures/fase1/tri.png, id=177, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/tri.png Graphic file (type png)
 <use ./Figures/fase1/tri.png>
-Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 525.
+Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 523.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase2/tri.png, id=178, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/tri.png Graphic file (type png)
 <use ./Figures/fase2/tri.png>
-Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 526.
+Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 524.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase2/c90.png, id=181, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/c90.png Graphic file (type png)
 <use ./Figures/fase2/c90.png>
-Package pdftex.def Info: ./Figures/fase2/c90.png  used on input line 538.
+Package pdftex.def Info: ./Figures/fase2/c90.png  used on input line 536.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase2/l80.png, id=182, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/l80.png Graphic file (type png)
 <use ./Figures/fase2/l80.png>
-Package pdftex.def Info: ./Figures/fase2/l80.png  used on input line 539.
+Package pdftex.def Info: ./Figures/fase2/l80.png  used on input line 537.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -696,29 +696,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <./Figures/fase3/tri.png, id=194, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/tri.png Graphic file (type png)
 <use ./Figures/fase3/tri.png>
-Package pdftex.def Info: ./Figures/fase3/tri.png  used on input line 562.
+Package pdftex.def Info: ./Figures/fase3/tri.png  used on input line 560.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase3/burst.png, id=195, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/burst.png Graphic file (type png)
 <use ./Figures/fase3/burst.png>
-Package pdftex.def Info: ./Figures/fase3/burst.png  used on input line 563.
+Package pdftex.def Info: ./Figures/fase3/burst.png  used on input line 561.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase3/tracao.png, id=196, 1204.5pt x 1003.75pt>
 File: ./Figures/fase3/tracao.png Graphic file (type png)
 <use ./Figures/fase3/tracao.png>
-Package pdftex.def Info: ./Figures/fase3/tracao.png  used on input line 564.
+Package pdftex.def Info: ./Figures/fase3/tracao.png  used on input line 562.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
  (Trabalho_EngPet.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./Figures/fase2/c90.png> <./Figures/fase2/l80.png> <./Figures/fase3/tri.pn
 g> <./Figures/fase3/burst.png> <./Figures/fase3/tracao.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 589.
  [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 591.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 589.
  (Trabalho_EngPet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 589.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 589.
 Package rerunfilecheck Info: File `Trabalho_EngPet.out' has not changed.
 (rerunfilecheck)             Checksum: 35ACC64C9E21D411F9889F83FE22706E;312.
 
@@ -746,7 +746,7 @@ Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
 <C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
 pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on Trabalho_EngPet.pdf (8 pages, 725268 bytes).
+Output written on Trabalho_EngPet.pdf (8 pages, 725281 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  61 named destinations out of 1000 (max. 500000)
