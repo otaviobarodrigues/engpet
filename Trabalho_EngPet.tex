@@ -222,13 +222,15 @@ This template file provides detailed formatting instructions for preparing your 
 
 %De acordo com \cite{lindi2017analysis}, existem métodos de detecção de $kick$, tais como: um aumento na taxa de fluxo de retorno de lama; aumento da taxa de penetração e fluxo do poço com as bombas desligadas. Uma vez detectado o $kick$, métodos de controle são utilizados para reestabelecer o contróleo primário do poço, restaurando o equilíbrio hidrostático, pode-se citar os métodos convencionais (Método do Sondador, Método do Engenheiro e Métodos Volumétricos) e não convencionais (Bullheading, Stripping e Snubbing) \cite{Iago}.
 
-Um poço de petróleo é perfurado em várias fases, que são revestidas e formam as colunas de revestimento, iniciando com um tubo de pequena extensão e diâmetro maior que os posteriores. Para realizar a perfuração da fase, é necessário um conjunto de ferramentas que constitui a coluna de perfuração, além do fluido de perfuração. De acordo com \citep{thomas2001fundamentos}, quando a pressão do fluido é inferior a pressão de poros dos fluidos confinados nos poros há um influxo destes para o poço, formando um $kick$. \citep{thomas2001fundamentos} ainda explica que um fluxo indesejado da formação de forma incontrolável gera um $blowout$, conforme ilustra a Figura~\ref{fig:graph}. Adicionalmente, a Figura~\ref{fig:graph} mostra a ocorrência de $blowout$ no ciclo de vida de poços no Golfo do México, Reino Unido (UK) e no Mar do Norte. Segundo \citep{SINTEF}, geralmente, os dados das plataformas dessas regiões são mais bem documentados do que explosões em outras localidades. É percebida que, para o período analisado, mais da metade dos $blowout's$ aconteceram durante a etapa de perfuração. Dessa forma, tem-se a importância de dedicar estudos para mitigar o problema em questão.
+Um poço de petróleo é perfurado em várias fases, que são revestidas e formam as colunas de revestimento, iniciando com um tubo de pequena extensão e diâmetro maior que os posteriores. Para realizar a perfuração da fase, é necessário um conjunto de ferramentas que constitui a coluna de perfuração, além do fluido de perfuração. De acordo com \citep{thomas2001fundamentos}, quando a pressão do fluido é inferior a pressão de poros dos fluidos confinados nos poros há um influxo destes para o poço, formando um $kick$. \citep{thomas2001fundamentos} ainda explica que um fluxo indesejado da formação de forma incontrolável gera um $blowout$, conforme ilustrado nas setas da Figura~\ref{fig:graph}.
 
-\begin{figure}[!ht]
+Adicionalmente, a Figura~\ref{fig:graph} mostra a ocorrência de $blowout$ no ciclo de vida de poços no Golfo do México, Reino Unido (UK) e no Mar do Norte. Segundo \citep{SINTEF}, geralmente, os dados das plataformas dessas regiões são mais bem documentados do que explosões em outras localidades. É percebida que, para o período analisado, mais da metade dos $blowouts$ aconteceram durante a etapa de perfuração. Dessa forma, tem-se a importância de dedicar estudos para mitigar o problema em questão.
+
+\begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.43]{Figures/poco2.pdf}
+\includegraphics[scale=0.35]{Figures/poco2_teste.pdf}
 \vspace{12pt}
-\caption{\centering{$Blowout$ no ciclo de vida de poços e esquema da evolução de um $kick$ para um $Blowout$. Fonte: Adaptado de \citep{inbook}.}}
+\caption{\centering{$Blowout$ no ciclo de vida de poços e esquema da evolução de um $kick$ para um $blowout$. Fonte: Adaptado de \citep{inbook}.}}
 \label{fig:graph}
 \end{center}
 \end{figure}
@@ -241,9 +243,9 @@ Estes e outros incidentes fizeram com que a ANP propusesse a resolução nº 46/
 
 A falha dos elementos do conjunto primário torna necessária uma intervenção através dos elementos do conjunto secundário. A Figura \ref{Fig2} mostra os elementos de barreira de poço dos CSB primário e secundário durante a perfuração. Entre tais, destacam-se o fluido na coluna e o revestimento. É importante garantir a integridade dessas estruturas. A variação permitida para as pressões do fluido de perfuração no poço, segundo \citep{rocha2009projeto}, deve obedecer a janela operacional, ou seja, respeitar os limites das pressões de poros, fratura e colapso. As colunas de revestimento, de acordo com \citep{aadnoy2010modern},  são dimensionadas para suportar $burst$ e colapso, além de esforços à tração.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.5]{Figures/CSB_corrigido.png}
+\includegraphics[scale=0.37]{Figures/CSB_corrigido.png}
 \vspace{12pt}
 \caption{Elementos de barreira de poço em um processo de perfuração. Fonte: Adaptado de \citep{norge2013norsok}.}
 \label{Fig2}
@@ -328,23 +330,34 @@ R_{cp} = \dfrac{46,95\cdot 10^6}{ \dfrac{D}{t}\left[ \left ( \dfrac{D}{t} \right
 
 \noindent onde $A$, $B$, $C$, $F$ e $G$ são constantes obtidas por equações empíricas em função da tensão de escoamento. É importante destacar que o regime de colapso vigente no revestimento varia conforme a relação entre o diâmetro externo e a espessura do revestimento, além das constantes $A$, $B$, $C$, $F$ e $G$. Em API TR 5C3 \citep{american2008technical} são apresentadas as relações para cada regime, assim como as equações das constantes. 
 
-Também é possível avaliar a resistência de forma tridimensional, a partir do critério de falha de von Mises. Assim, são feitas algumas considerações como definição de tensões em cilindros e características específicas do cenário de $burst$ e colapso, resultando nas seguintes semi-elipses para as falhas por $burst$ ($P_{burst}$) e colapso ($P_{colapso}$):
+Também é possível avaliar a resistência de forma tridimensional, a partir do critério de falha de von Mises. Assim, são feitas algumas considerações como definição de tensões em cilindros e características específicas do cenário de $burst$ e colapso, resultando nas seguintes expressões para as pressões por $burst$ ($P_{burst}$) e colapso ($P_{colapso}$):
 
 
 \begin{center}
-\begin{equation}\label{Eq1}
+\begin{equation}\label{Eq6}
 P_{burst} = \dfrac{d^2\sigma_{z}+\sqrt{3D^4Y_p^2-9D^4\tau_{ha}^2-3D^4\sigma_z^2-Y_p^2d^4-3d^4\tau_{ha}^2}(D^2-d^2)}{3D^4+d^4},
 \end{equation}
 \end{center}
 
 \begin{center}
-\begin{equation}\label{Eq1}
+\begin{equation}\label{Eq8}
 P_{colapso} = - \dfrac{\sigma_{z}+\sqrt{4Y_{p}^2-12\tau_{ha}^2-3\sigma_{z}^2}(D^2-d^2)}{4D^2},
 \end{equation}
 \end{center}
 
 
-\noindent em que $d$ é o diâmetro interno do revestimento, $\sigma_{eq}$,  $\sigma_{z}$, $\sigma_{h}$, $\sigma_{r}$, $\tau_{ha}$ são as tensões de von Mises, axial, tangencial, radial e cisalhamento torcional, respectivamente. \citep{costa} mostra em detalhes o passo a passo para atingir as equações anteriores. Além disso, o API TR 5C3 \citep{american2008technical} fornece uma envoltória de segurança, a qual é resultado das resistências acima e mais adiante será ilustrada. Esses dois métodos compõem uma análise triaxial.
+\noindent em que $d$ é o diâmetro interno do revestimento, $\sigma_{eq}$,  $\sigma_{z}$, $\sigma_{h}$, $\sigma_{r}$, $\tau_{ha}$ são as tensões de von Mises, axial, tangencial, radial e cisalhamento torcional, respectivamente. As equações (\ref{Eq6}) e (\ref{Eq8}) correspondem a parte superior e inferior da elipse triaxial de von Mises ilustrada na Figura \ref{poco2}, a qual delimita uma região onde o revestimento possui um comportamento elástico. \citep{costa} mostra em detalhes o passo a passo para atingir as equações anteriores. Além disso, o API TR 5C3 \citep{american2008technical} fornece uma envoltória de segurança, a qual é resultado das resistências acima, dos fatores de segurança e está ilustrada também na Figura \ref{poco2}. Esses dois métodos compõem uma análise triaxial.
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{Figures/elipse.png}
+%\vspace{12pt}
+\caption{Elipse de resistência triaxial de revestimento. Fonte: \cite{costa}.}
+\label{poco2}
+\end{center}
+\end{figure}
+
 
 
 %\vspace{6pt}
@@ -413,16 +426,7 @@ Os esforços atuantes ao longo da profundidade do revestimento são representado
 pares ordenados (esforço axial, pressão diferencial). Para garantia de atendimento de integridade
 estrutural do sistema, os valores plotados dos pares ordenados (esforço axial, pressão diferencial)
 devem estar contidos no espaço delimitado pela envoltória da elipse de von Mises e pela envoltória de
-segurança API \citep{santos2021desenvolvimento}. Na Figura \ref{poco2} é apresentada a elipse de resistência triaxial para tubos de revestimento API. Os procedimentos apresentados anteriormente são a base dos cálculos realizados pelo CWELL a fim de avaliar ou dimensionar revestimentos com a possibilidade de adicionar os fatores de segurança.
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[scale=0.6]{Figures/elipse.png}
-%\vspace{12pt}
-\caption{Elipse de resistência triaxial de revestimento. Fonte: \cite{costa}.}
-\label{poco2}
-\end{center}
-\end{figure}
+segurança API \citep{santos2021desenvolvimento}. Os procedimentos apresentados anteriormente são a base dos cálculos realizados pelo CWELL a fim de avaliar ou dimensionar revestimentos com a possibilidade de adicionar os fatores de segurança.
 
 
 %  --------------------------------------------------------------------------
@@ -435,7 +439,7 @@ A perda de circulação é a invasão de fluido de perfuração para a formaçã
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.5]{Figures/poco.pdf}
+\includegraphics[scale=0.4]{Figures/poco.pdf}
 %\vspace{12pt}
 \caption{Esquema do modelo do poço.}
 \label{fig:poco}
@@ -453,8 +457,8 @@ A perda de circulação é a invasão de fluido de perfuração para a formaçã
 \begin{tabular}{ccccccccc}
 \multicolumn{1}{c|}{\multirow{2}{*}{Revestimento}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Diâmetro \\ externo {[}pol{]}\end{tabular}}} & \multicolumn{3}{c|}{MD {[}m{]}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Broca \\ {[}pol{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Densidade \\ da lama  {[}lb/gal{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{Grade}} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Peso \\ linear {[}lb/ft{]}\end{tabular}} \\ \cline{3-5}
 \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & Topo & TOC & \multicolumn{1}{c|}{Base} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} &  \\ \hline
-Condutor & 20 & 0 & 0 & 400 & 26 & 9.5 & H40 & 94 \\
-Intermediário & 13 3/8 & 0 & 0 & 1400 & 17 1/2 & 10 & K55 & 61 \\
+Condutor & 20 & 0 & 0 & 400 & 26 & 9,5 & H40 & 94 \\
+Intermediário & 13 3/8 & 0 & 0 & 1400 & 17 1/2 & 17,5 & K55 & 61 \\
 Produção & 7 & 0 & 1200 & 2400 & 8 1/2 & 12 & C75 & 32 \\ \hline
 \end{tabular}
 \end{table}
@@ -490,7 +494,7 @@ A Figura~\ref{fig:kickgas} detalha os dados utilizados para a simulação de um 
 \section{Resultados e discussão} \label{sec:resultados}
 % --------------------------------------------------------------------------
 
-A Tabela \ref{tab_res} apresenta as resistências à tração, ao colapso e ao $burst$ nos revestimentos do poço fornecidas pelo CWELL. Na Figura \ref{fig:resultsF1}(a) é apresentada a análise triaxial do revestimento condutor. A envoltória dos esforços de circulação total encontra-se no interior dos limites API e da elipse de von Mises, apontando que não há falha por ELU e ELS.
+A Tabela \ref{tab_res} apresenta as resistências dos revestimentos de poço obtidas pelo CWELL. Do revestimento condutor ao de produção nota-se uma diminuição da resistência axial. Por outro lado, as resistências por $burst$ e colapso aumentam na direção do revestimento condutor ao de produção. Assim, há uma tendência de os esforços serem mais acentuados por tração no revestimento condutor e de esforços por pressão mais acentuados nos revestimentos intermediário e de produção. 
 
 \begin{table}[H]
 \centering
@@ -505,30 +509,45 @@ Colapso [psi]   & 515,47                                                        
 \label{tab_res}
 \end{table}
 
-
+Na Figura \ref{fig:resultsF1}(a) são apresentadas as envoltórias de resistência e de perda de circulação total no revestimento condutor (Tubo H40). Os esforços pela perda  encontram-se no interior dos limites API e da elipse de von Mises, apontando que as resistências calculadas com base nos fatores de segurança são atendidas, bem como o comportamento constitutivo do tubo em regime elástico, respectivamente. A Figura \ref{fig:resultsF1}(b) demonstra o contrário para o revestimento intermediário (Tubo K55), ou seja, os esforços por perda de circulação em parte da coluna ultrapassam a região segura, indicando riscos à integridade desse revestimento e a necessidade da escolha de um novo tubo.
 
 
 \begin{figure}[H]
 \begin{center}
 \center
 \subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase1/tri.png}}\qquad
-\subfigure[ref2][]{\includegraphics[width=7.6cm]{./Figures/fase1/colapso.png}}
-\subfigure[ref3][]{\includegraphics[width=7.6cm]{./Figures/fase1/tracao.png}}
-\caption{\centering{Resultados fase 1 (Revestimento Condutor)}}
+\subfigure[ref2][]{\includegraphics[width=7.6cm]{./Figures/fase2/tri.png}}
+%\subfigure[ref3][]{\includegraphics[width=7.6cm]{./Figures/fase1/tracao.png}}
+\caption{\centering{Análise triaxial nos revestimentos: (a) condutor e (b) intermediário.}}
 \label{fig:resultsF1}
 \end{center}
 \end{figure}
 
+Neste sentido, são avaliados tubos com grades M65, C75, L80, N80 e C90, de modo que apenas o tubo com a última grade forneceu um resultado exclusivamente no domínio seguro, conforme ilustrado na Figura \ref{fig:resultsF2}(a). Os outros tubos foram evoluindo gradativamente. Aqueles com grades L80 e N80, por exemplo, chegaram a ter o esforço de tração mínimo sobre a elipse de von Mises e os limites do API respeitados, conforme ilustrado na Figura \ref{fig:resultsF2}(b). Porém, sendo bastante rigoroso, haveria a iminência de plastificação. Desta forma, uma sugestão que pode garantir a segurança estrutural e minimizar o custo é a utilização de um revestimento intermediário com seções combinadas. 
+
 \begin{figure}[H]
 \begin{center}
 \center
-\subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase2/tri.png}}\qquad
-\subfigure[ref2][]{\includegraphics[width=7.6cm]{./Figures/fase2/colapso.png}}
-\subfigure[ref3][]{\includegraphics[width=7.6cm]{./Figures/fase2/tracao.png}}
-\caption{\centering{Resultados fase 2 (Revestimento Intermediário)}}
+\subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase2/c90.png}}\qquad
+\subfigure[ref2][]{\includegraphics[width=7.6cm]{./Figures/fase2/l80.png}}
+%\subfigure[ref3][]{\includegraphics[width=7.6cm]{./Figures/fase1/tracao.png}}
+\caption{\centering{Análise triaxial no revestimento intermediário: (a) C90 e (b) L80.}}
 \label{fig:resultsF2}
 \end{center}
 \end{figure}
+
+%\begin{figure}[H]
+%\begin{center}
+%\includegraphics[scale=0.2]{Figures/tubo_proposto_c90.pdf}
+%\vspace{12pt}
+%\caption{\centering{Proposta de revestimento condutor.}}
+%\label{fig:graph}
+%\end{center}
+%\end{figure}
+%\vspace{8pt}
+
+%A Figura \ref{fig:resultsF1}(b) demonstra o contrário para o revestimento intermediário, ou seja, os esforços por perda de circulação em parte da coluna ultrapassam a região segura, indicando riscos à integridade desse revestimento e a necessidade da escolha de um novo tubo. 
+
 
 \begin{figure}[H]
 \begin{center}
@@ -536,7 +555,7 @@ Colapso [psi]   & 515,47                                                        
 \subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase3/tri.png}}\qquad
 \subfigure[ref2][]{\includegraphics[width=7.6cm]{./Figures/fase3/burst.png}}
 \subfigure[ref3][]{\includegraphics[width=7.6cm]{./Figures/fase3/tracao.png}}
-\caption{\centering{Resultados fase 3 (Revestimento Produção)}}
+\caption{\centering{Proposta de revestimento condutor.}}
 \label{fig:resultsF3}
 \end{center}
 \end{figure}
