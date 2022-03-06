@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  6 MAR 2022 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.3)  6 MAR 2022 13:17
 entering extended mode
 **./Trabalho_EngPet.tex
 (Trabalho_EngPet.tex
@@ -627,97 +627,92 @@ pdfTeX warning: pdflatex (file ./Figures/poco2_teste.pdf): PDF inclusion: found
 <Figures/poco2_teste.pdf, id=30, 963.6pt x 483.72722pt>
 File: Figures/poco2_teste.pdf Graphic file (type pdf)
 <use Figures/poco2_teste.pdf>
-Package pdftex.def Info: Figures/poco2_teste.pdf  used on input line 231.
-(pdftex.def)             Requested size: 385.43317pt x 193.48746pt.
-[1
+Package pdftex.def Info: Figures/poco2_teste.pdf  used on input line 230.
+(pdftex.def)             Requested size: 337.26506pt x 169.30705pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 {C:/Users/Lucas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/c
-ab.png> <./Figures/poco2_teste.pdf>]
+ab.png>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-42.
-
+41.
 ("C:\Users\Lucas\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<Figures/CSB_corrigido.png, id=75, 711.4078pt x 542.025pt>
+<Figures/CSB_corrigido.png, id=55, 711.4078pt x 542.025pt>
 File: Figures/CSB_corrigido.png Graphic file (type png)
 <use Figures/CSB_corrigido.png>
-Package pdftex.def Info: Figures/CSB_corrigido.png  used on input line 248.
-(pdftex.def)             Requested size: 284.55807pt x 216.80615pt.
+Package pdftex.def Info: Figures/CSB_corrigido.png  used on input line 247.
+(pdftex.def)             Requested size: 248.99646pt x 189.71158pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 <./Figures/CSB_corrigido.png>]
-<Figures/elipse.png, id=109, 680.5425pt x 472.01344pt>
+ [2 <./Figures/poco2_teste.pdf> <./Figures/CSB_corrigido.png>] [3]
+<Figures/elipse.png, id=125, 680.5425pt x 472.01344pt>
 File: Figures/elipse.png Graphic file (type png)
 <use Figures/elipse.png>
-Package pdftex.def Info: Figures/elipse.png  used on input line 354.
+Package pdftex.def Info: Figures/elipse.png  used on input line 353.
 (pdftex.def)             Requested size: 306.24129pt x 212.40408pt.
- [3]
-<Figures/poco.pdf, id=139, 529.98pt x 393.47pt>
+ [4 <./Figures/elipse.png>]
+<Figures/poco.pdf, id=149, 529.98pt x 393.47pt>
 File: Figures/poco.pdf Graphic file (type pdf)
 <use Figures/poco.pdf>
-Package pdftex.def Info: Figures/poco.pdf  used on input line 446.
+Package pdftex.def Info: Figures/poco.pdf  used on input line 445.
 (pdftex.def)             Requested size: 211.98824pt x 157.38521pt.
- [4 <./Figures/elipse.png>]
-<Figures/kickgas.png, id=155, 441.90094pt x 441.90094pt>
+<Figures/kickgas.png, id=154, 441.90094pt x 441.90094pt>
 File: Figures/kickgas.png Graphic file (type png)
 <use Figures/kickgas.png>
-Package pdftex.def Info: Figures/kickgas.png  used on input line 488.
+Package pdftex.def Info: Figures/kickgas.png  used on input line 487.
 (pdftex.def)             Requested size: 176.75723pt x 176.75723pt.
- [5 <./Figures/poco.pdf> <./Figures/kickgas.png>]
-<./Figures/fase1/tri.png, id=178, 1204.5pt x 1003.75pt>
+ [5 <./Figures/poco.pdf>]
+<./Figures/fase1/tri.png, id=179, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/tri.png Graphic file (type png)
 <use ./Figures/fase1/tri.png>
-Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 521.
+Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 520.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase2/tri.png, id=179, 1204.5pt x 1003.75pt>
+<./Figures/fase2/tri.png, id=180, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/tri.png Graphic file (type png)
 <use ./Figures/fase2/tri.png>
-Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 522.
+Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 521.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase2/c90.png, id=182, 1204.5pt x 1003.75pt>
+ [6 <./Figures/kickgas.png> <./Figures/fase1/tri.png> <./Figures/fase2/tri.png>
+]
+<./Figures/fase2/c90.png, id=193, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/c90.png Graphic file (type png)
 <use ./Figures/fase2/c90.png>
-Package pdftex.def Info: ./Figures/fase2/c90.png  used on input line 534.
+Package pdftex.def Info: ./Figures/fase2/c90.png  used on input line 533.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase2/l80.png, id=183, 1204.5pt x 1003.75pt>
+<./Figures/fase2/l80.png, id=194, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/l80.png Graphic file (type png)
 <use ./Figures/fase2/l80.png>
-Package pdftex.def Info: ./Figures/fase2/l80.png  used on input line 535.
+Package pdftex.def Info: ./Figures/fase2/l80.png  used on input line 534.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./Figures/fase1/tri.png> <./Figures/fase2/tri.png>]
 <Figures/fase3/tri.png, id=197, 1204.5pt x 1003.75pt>
 File: Figures/fase3/tri.png Graphic file (type png)
 <use Figures/fase3/tri.png>
-Package pdftex.def Info: Figures/fase3/tri.png  used on input line 559.
+Package pdftex.def Info: Figures/fase3/tri.png  used on input line 558.
 (pdftex.def)             Requested size: 240.89574pt x 200.74644pt.
-<./Figures/fase3/c95.png, id=199, 1204.5pt x 1003.75pt>
-File: ./Figures/fase3/c95.png Graphic file (type png)
-<use ./Figures/fase3/c95.png>
-Package pdftex.def Info: ./Figures/fase3/c95.png  used on input line 573.
-(pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase3/c90.png, id=200, 1204.5pt x 1003.75pt>
-File: ./Figures/fase3/c90.png Graphic file (type png)
-<use ./Figures/fase3/c90.png>
-Package pdftex.def Info: ./Figures/fase3/c90.png  used on input line 574.
-(pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [7 <./Figures/fase2/c90.png> <./Figures/fase2/l80.png> <./Figures/fase3/tri.pn
 g>]
-(Trabalho_EngPet.bbl [8 <./Figures/fase3/c95.png> <./Figures/fase3/c90.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 625.
-
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 625.
+<./Figures/fase3/c95.png, id=212, 1204.5pt x 1003.75pt>
+File: ./Figures/fase3/c95.png Graphic file (type png)
+<use ./Figures/fase3/c95.png>
+Package pdftex.def Info: ./Figures/fase3/c95.png  used on input line 572.
+(pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
+<./Figures/fase3/c90.png, id=213, 1204.5pt x 1003.75pt>
+File: ./Figures/fase3/c90.png Graphic file (type png)
+<use ./Figures/fase3/c90.png>
+Package pdftex.def Info: ./Figures/fase3/c90.png  used on input line 573.
+(pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
+ (Trabalho_EngPet.bbl [8 <./Figures/fase3/c95.png> <./Figures/fase3/c90.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 624.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 624.
  (Trabalho_EngPet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 625.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 625.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 624.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 624.
 Package rerunfilecheck Info: File `Trabalho_EngPet.out' has not changed.
 (rerunfilecheck)             Checksum: 35ACC64C9E21D411F9889F83FE22706E;312.
 
@@ -728,11 +723,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  11326 strings out of 481277
  187985 string characters out of 2906528
- 475463 words of memory out of 3000000
+ 476463 words of memory out of 3000000
  26562 multiletter control sequences out of 15000+200000
  545362 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,45p,1237b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,16n,45p,1568b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmex10.pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
@@ -745,9 +740,9 @@ Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
 <C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
 pfb><C:/Users/Lucas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on Trabalho_EngPet.pdf (9 pages, 787540 bytes).
+Output written on Trabalho_EngPet.pdf (9 pages, 789449 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
+ 272 PDF objects out of 1000 (max. 8388607)
  62 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
