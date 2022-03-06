@@ -201,7 +201,7 @@ This template file provides detailed formatting instructions for preparing your 
 
 
 % --------------------------------------------------------------------------
-\section{Introdução}\label{sec:introduction}
+e\section{Introdução}\label{sec:introduction}
 % --------------------------------------------------------------------------
 %O objetivo deste trabalho é avaliar a integridade de poços com base na avaliação de sistemas de barreiras de segurança, durante as atividades de perfuração do poço. Com relação ao procedimento de perfuração, em poços de petróleo utilizam-se sondas de perfuração, que consistem em um conjunto de equipamentos, que podem variar quanto a sua tipologia \cite{cardoso}. A Figura \ref{fig: perf_esquema} ilustra um esquema geral da sonda na perfuração de poços. 
 
@@ -228,7 +228,7 @@ Adicionalmente, a Figura~\ref{fig:graph} mostra a ocorrência de $blowout$ no ci
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.35]{Figures/poco2_teste.pdf}
+\includegraphics[scale=0.4]{Figures/poco2_teste.pdf}
 \vspace{12pt}
 \caption{\centering{Esquema da evolução de um $kick$ para um $blowout$. Fonte: Adaptado de \citep{inbook}. $Blowout$ no ciclo de vida de poços.}}
 \label{fig:graph}
@@ -245,7 +245,7 @@ A falha dos elementos do conjunto primário torna necessária uma intervenção 
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.37]{Figures/CSB_corrigido.png}
+\includegraphics[scale=0.4]{Figures/CSB_corrigido.png}
 \vspace{12pt}
 \caption{Elementos de barreira de poço em um processo de perfuração. Fonte: Adaptado de \citep{norge2013norsok}.}
 \label{Fig2}
@@ -351,7 +351,7 @@ P_{colapso} = - \dfrac{\sigma_{z}+\sqrt{4Y_{p}^2-12\tau_{ha}^2-3\sigma_{z}^2}(D^
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.4]{Figures/elipse.png}
+\includegraphics[scale=0.45]{Figures/elipse.png}
 %\vspace{12pt}
 \caption{Elipse de resistência triaxial de revestimento. Fonte: \cite{costa}.}
 \label{poco2}
@@ -459,7 +459,7 @@ Admitindo que a barreira primária seja rompida, as resistências dos revestimen
 \caption{Valores numéricos associados ao caso de estudo. Fonte: Adaptado de \citep{costa}.}
 \label{tab:poco}
 \begin{tabular}{ccccccccc}
-\multicolumn{1}{c|}{\multirow{2}{*}{Revestimento}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Diâmetro\\  Externo {[}pol{]}\end{tabular}}} & \multicolumn{3}{c|}{MD {[}m{]}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Broca \\ {[}pol{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Densidade \\ da lama {[}lb/gal{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{Grade}} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Peso \\ linear {[}lb/ft{]}\end{tabular}} \\ \cline{3-5}
+\multicolumn{1}{c|}{\multirow{2}{*}{Revestimento}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Diâmetro\\  Externo {[}pol{]}\end{tabular}}} & \multicolumn{3}{c|}{MD {[}m{]}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Broca \\ {[}pol{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Densidade \\ da lama {[}lb/gal{]}\end{tabular}}} & \multicolumn{1}{c|}{\multirow{2}{*}{Grau}} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Peso \\ linear {[}lb/ft{]}\end{tabular}} \\ \cline{3-5}
 \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & Hanger & TOC & \multicolumn{1}{c|}{Base} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} &  \\ \hline
 Condutor & 20 & 0 & 0 & 400 & 26 & 9.5 & H40 & 94 \\
 Superfície & 13 3/8 & 0 & 0 & 1400 & 17 1/2 & 17.5 & K55 & 61 \\
@@ -481,8 +481,7 @@ Tração & $Burst$ & Colapso  & Triaxial \\ \hline
 \end{tabular}
 \end{table}
 
-
-A Figura~\ref{fig:kickgas} detalha os dados utilizados para a simulação de um \textit{kick} de gás na interface SAEP. Os valores numéricos dos parâmetros foram extraídos de \citep{costa2}.
+A Figura~\ref{fig:kickgas} detalha os dados utilizados para a simulação de um \textit{kick} de gás na interface SAEP. Os valores numéricos dos parâmetros foram extraídos de \citep{costa2}. 
 
 \begin{figure}[!ht]
 \begin{center}
@@ -493,13 +492,11 @@ A Figura~\ref{fig:kickgas} detalha os dados utilizados para a simulação de um 
 \end{center}
 \end{figure}
 
-
-
 % --------------------------------------------------------------------------
 \section{Resultados e discussão} \label{sec:resultados}
 % --------------------------------------------------------------------------
 
-A Tabela \ref{tab_res} apresenta as resistências dos revestimentos de poço obtidas pelo CWELL. Do revestimento condutor ao intermediário nota-se uma diminuição da resistência à tração. Por outro lado, as resistências por $burst$ e colapso aumentam na direção do revestimento condutor ao intermediário. Assim, há uma tendência de o dimensionamento realizado ser focado em esforços mais acentuados por tração no revestimento condutor e de esforços mais acentuados por pressão nos revestimentos de superfície e intermediário. 
+A Tabela \ref{tab_res} apresenta as resistências dos revestimentos de poço obtidas pelo CWELL. Do revestimento condutor ao intermediário nota-se uma diminuição da resistência à tração. Por outro lado, as resistências por $burst$ e colapso aumentam na direção do revestimento condutor ao intermediário. Assim, há uma tendência de o dimensionamento ser focado em esforços mais acentuados por tração no revestimento condutor e em esforços mais acentuados por pressão nos revestimentos de superfície e intermediário. 
 
 \begin{table}[H]
 \centering
@@ -507,14 +504,15 @@ A Tabela \ref{tab_res} apresenta as resistências dos revestimentos de poço obt
 \begin{tabular}{c|c|c|c}
 Resistência     & \begin{tabular}[c]{@{}c@{}}Revestimento Condutor\\(Tubo H40)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Revestimento de Superfície\\(Tubo K55)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Revestimento Intermediário\\(Tubo C75)\end{tabular}  \\ 
 \hline
-Tração [klbf]   & 1076,71                                                                   & 961,80                                                                         & 698,00                                                                        \\
-$Burst$ [psi] & 1533,00                                                                   & 3094,39                                                                        & 8493,75                                                                       \\
-Colapso [psi]   & 515,47                                                                    & 1539,51                                                                        & 8201,37                                                                      
+Tração [klbf]   & 1076,71                                                                   & 961,80                                                                         & 431,19
+\\
+$Burst$ [psi] & 1533,00                                                                   & 3094,39                                                                        & 5100,00                                                                       \\
+Colapso [psi]   & 515,47                                                                    & 1539,51                                                                        & 2662,04                                                                      
 \end{tabular}
 \label{tab_res}
 \end{table}
 
-Na Figura \ref{fig:resultsF1}(a) são apresentadas as envoltórias de resistência e os pares ordenados de pressão e esforço, considerando a perda por circulação total no revestimento condutor (Tubo H40). Os esforços pela perda  encontram-se no interior dos limites API e da elipse de von Mises, apontando que as resistências calculadas com base nos fatores de segurança são atendidas, bem como o comportamento constitutivo do tubo em regime elástico após o carregamento. A Figura \ref{fig:resultsF1}(b) demonstra o contrário para o revestimento intermediário (Tubo K55), ou seja, os esforços por perda de circulação em parte da coluna ultrapassam a região segura, indicando a plastificação de parte da coluna e a possibilidade da escolha de um novo tubo a depender do rigos da empresa operadora.
+Na Figura \ref{fig:resultsF1}(a) são apresentadas as envoltórias de resistência e os pares ordenados de pressão e esforço, considerando a perda por circulação total no revestimento condutor (Tubo H40). Os esforços pela perda  encontram-se no interior dos limites API e da elipse de von Mises, apontando que as resistências calculadas com base nos fatores de segurança são atendidas, bem como o comportamento constitutivo do tubo em regime elástico após o carregamento. A Figura \ref{fig:resultsF1}(b) demonstra o contrário para o revestimento intermediário (Tubo K55), ou seja, os esforços por perda de circulação em parte da coluna ultrapassam a região segura, indicando a plastificação de parte da coluna e a possibilidade da escolha de um novo tubo a depender do rigor do projetista.
 
 
 \begin{figure}[H]
@@ -528,7 +526,7 @@ Na Figura \ref{fig:resultsF1}(a) são apresentadas as envoltórias de resistênc
 \end{center}
 \end{figure}
 
-Neste sentido, são avaliados tubos com grau M65, C75, L80, N80 e C90, de modo que apenas o tubo com o último grau forneceu envoltórias de segurança que compreendem os esforços no domínio seguro, conforme ilustrado na Figura \ref{fig:resultsF2}(a). Os outros tubos foram evoluindo gradativamente no atendimento aos critérios de segurança. Inclusive, aqueles com grau L80 e N80, por exemplo, chegaram a ter o esforço de tração mínimo sobre a elipse de von Mises e os limites do API respeitados, conforme ilustrado na Figura \ref{fig:resultsF2}(b). Porém, seguindo o critério de uma operadora rigorosa, haveria a iminência de plastificação. Desta forma, uma sugestão que pode garantir a segurança estrutural quanto ao estado limite de serviço e minimizar o custo é a utilização de um revestimento intermediário com seções combinadas. 
+Neste sentido, são avaliados tubos com grau M65, C75, L80, N80 e C90, de modo que apenas o tubo com o último grau forneceu envoltórias de segurança que compreendem os esforços no domínio seguro, conforme ilustrado na Figura \ref{fig:resultsF2}(a). Os outros tubos foram evoluindo gradativamente no atendimento aos critérios de segurança. Inclusive, aqueles com grau L80 e N80, por exemplo, chegaram a ter o esforço de tração mínimo sobre a elipse de von Mises e os limites API respeitados, conforme ilustrado na Figura \ref{fig:resultsF2}(b). Porém, seguindo o critério de um projeto rigoroso, haveria a iminência de plastificação. Desta forma, uma sugestão que pode garantir a segurança estrutural quanto ao estado limite de serviço e minimizar o custo é a utilização de um revestimento intermediário com seções combinadas. 
 
 \begin{figure}[H]
 \begin{center}
@@ -553,26 +551,66 @@ Neste sentido, são avaliados tubos com grau M65, C75, L80, N80 e C90, de modo q
 
 %A Figura \ref{fig:resultsF1}(b) demonstra o contrário para o revestimento intermediário, ou seja, os esforços por perda de circulação em parte da coluna ultrapassam a região segura, indicando riscos à integridade desse revestimento e a necessidade da escolha de um novo tubo. 
 
+Na Figura \ref{fig:graph5} é apresentada a análise triaxial do revestimento intermediário (Tubo C75), considerando o cenário de $kick$ de gás. Assim como no revestimento de superfície, parte da curva relativa ao carregamento fica fora do domínio de interseção das envoltórias de segurança, significando deformações plásticas na coluna e o não atendimento a resistência por $burst$, a qual é minorada pelos fatores de segurança. Novamente propõe-se um novo grau para o tubo, ou seja,  considerando um projeto conservador quanto a estas deformações. Assim, foram avaliados os tubos com graus L80, N80, C90 e C95. No último tubo os esforços por $kick$ ficaram dentro das envoltórias de segurança, conforme ilustrado na Figura \ref{fig:resultsF4}(a). Também sugere-se o uso de seções combinadas.
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.2]{Figures/fase3/tri.png}
+\vspace{12pt}
+\caption{\centering{Análise triaxial de revestimento intermediário.}}
+\label{fig:graph5}
+\end{center}
+\end{figure}
+\vspace{8pt}
+
+
+Chama-se a atenção para a análise triaxial do tubo C90 mostrado na Figura \ref{fig:resultsF4}(b). Todos os esforços estão no interior da elipse de von Mises. Em outra direção, o ponto com esforço axial mínimo encontra-se sobre a curva limite API. Isso significa que não há plastificação do revestimento, porém os coeficientes de segurança estão no limite de serem violados, indicando um risco dada a possibilidade de incertezas nos processos de fabricação que podem reduzir a própria resistência indicada pelo fabricante.
 
 \begin{figure}[H]
 \begin{center}
 \center
-\subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase3/tri.png}}\qquad
-\subfigure[ref2][]{\includegraphics[width=7.6cm]{./Figures/fase3/burst.png}}
-\subfigure[ref3][]{\includegraphics[width=7.6cm]{./Figures/fase3/tracao.png}}
-\caption{\centering{Proposta de revestimento condutor.}}
-\label{fig:resultsF3}
+\subfigure[ref1][]{\includegraphics[width=7.6cm]{./Figures/fase3/c95.png}}\qquad
+\subfigure[ref2][]{\includegraphics[width=7.6cm]{./Figures/fase3/c90.png}}
+%\subfigure[ref3][]{\includegraphics[width=7.6cm]{./Figures/fase3/tracao.png}}
+\caption{\centering{Análise triaxial de revestimento intermediário: (a) C95 e (b) C90.}}
+\label{fig:resultsF4}
 \end{center}
 \end{figure}
+
+
+
+%\begin{figure}[H]
+%\begin{center}
+%\includegraphics[scale=0.215]{Figures/fase3/c90.png}
+%\vspace{12pt}
+%\caption{\centering{Análise triaxial de revestimento %intermediário com grau C90.}}
+%\label{fig:graph5}
+%\end{center}
+%\end{figure}
+%\vspace{8pt}
+
+
+%Além disso, diferentemente dos cenários de perda de circulação total onde eram predominantes esforços de tração observa-se que o cenário de $kick$ de gás causa tração e compressão no revestimento, conforme a Figura \ref{fig:graph5}. Na Figura \ref{fig:graph2} é detalhada a força de tração ao longo da profundidade.  Desta forma, entre as profundidades de 2500 a 3400 m há compressão. Sendo assim, uma investigação de flambagem nessa região da coluna é válida. Ademais, note que, com base na Tabela \ref{tab_res}, a resistência à tração do tubo C75 não é violada ao longo da região tracionada.
+
+%\begin{figure}[H]
+%\begin{center}
+%\includegraphics[scale=0.215]{Figures/fase3/tracao.png}
+%\vspace{12pt}
+%\caption{\centering{Esforços de tração no revestimento intermediário.}}
+%\label{fig:graph2}
+%\end{center}
+%\end{figure}
+%\vspace{8pt}
 
 
 % --------------------------------------------------------------------------
 \section{Conclusão}\label{sec:Conclusão}
 % --------------------------------------------------------------------------
 
+Estre trabalho realizou um estudo de caso sobre a integridade do elemento de barreira de poço revestimento durante cenários de perfuração. Estes fazem parte do CSB secundário e são vitais para o controle de $blowouts$ conforme prevê o SGIP. Os cenários avaliados foram perda de circulação total e $kick$ de gás. O revestimento condutor, considerando o primeiro cenário, atendeu as envoltórias de von Mises e API. Por outro lado, nessa mesma operação o revestimento de superfície sofreu plastificação e não atendeu aos coeficientes de segurança. Analogamente, o revestimento intermediário sob um cenário de $kick$ também ficou fora do domínio seguro. 
 
-
-
+Assim, foram avaliados diferentes graus para os tubos dos revestimentos de superfície e intermediário, considerando projetos mais conservadores, ou seja, que não aceitam a plastificação na coluna e a violação dos fatores de segurança. Deste modo, indicou-se tubos com grau C90 e C95, respectivamente. Buscando economia e segurança, ainda sugeriu-se a utilização de seções compostas em ambos os revestimentos. Destacam-se ainda as funcionalidades do CWELL fornecendo análises triaxiais, resistências e esforços, os quais são úteis para dimensionamento de colunas de revestimento, bem como verificação da integridade. 
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  5 MAR 2022 14:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.24)  6 MAR 2022 01:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -600,7 +600,7 @@ pdfTeX warning: pdflatex (file ./Figures/poco2_teste.pdf): PDF inclusion: found
 File: Figures/poco2_teste.pdf Graphic file (type pdf)
 <use Figures/poco2_teste.pdf>
 Package pdftex.def Info: Figures/poco2_teste.pdf  used on input line 231.
-(pdftex.def)             Requested size: 337.26506pt x 169.30705pt.
+(pdftex.def)             Requested size: 385.43317pt x 193.48746pt.
 [1
 
 {C:/Users/obaro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figures/ca
@@ -611,73 +611,85 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 (C:\Users\obaro\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<Figures/CSB_corrigido.png, id=76, 711.4078pt x 542.025pt>
+<Figures/CSB_corrigido.png, id=75, 711.4078pt x 542.025pt>
 File: Figures/CSB_corrigido.png Graphic file (type png)
 <use Figures/CSB_corrigido.png>
 Package pdftex.def Info: Figures/CSB_corrigido.png  used on input line 248.
-(pdftex.def)             Requested size: 263.21677pt x 200.5461pt.
+(pdftex.def)             Requested size: 284.55807pt x 216.80615pt.
 
-[2 <./Figures/CSB_corrigido.png>]
-<Figures/elipse.png, id=111, 680.5425pt x 472.01344pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./Figures/CSB_corrigido.png>]
+<Figures/elipse.png, id=109, 680.5425pt x 472.01344pt>
 File: Figures/elipse.png Graphic file (type png)
 <use Figures/elipse.png>
 Package pdftex.def Info: Figures/elipse.png  used on input line 354.
-(pdftex.def)             Requested size: 272.21217pt x 188.80202pt.
+(pdftex.def)             Requested size: 306.24129pt x 212.40408pt.
  [3]
-<Figures/poco.pdf, id=138, 509.905pt x 264.99pt>
+<Figures/poco.pdf, id=138, 529.98pt x 393.47pt>
 File: Figures/poco.pdf Graphic file (type pdf)
 <use Figures/poco.pdf>
-Package pdftex.def Info: Figures/poco.pdf  used on input line 442.
-(pdftex.def)             Requested size: 203.95837pt x 105.99411pt.
- [4 <./Figures/elipse.png> <./Figures/poco.pdf>]
-<Figures/kickgas.png, id=164, 441.14813pt x 444.15938pt>
+Package pdftex.def Info: Figures/poco.pdf  used on input line 446.
+(pdftex.def)             Requested size: 211.98824pt x 157.38521pt.
+
+Underfull \vbox (badness 4859) has occurred while \output is active []
+
+ [4 <./Figures/elipse.png>]
+<Figures/kickgas.png, id=154, 441.90094pt x 441.90094pt>
 File: Figures/kickgas.png Graphic file (type png)
 <use Figures/kickgas.png>
-Package pdftex.def Info: Figures/kickgas.png  used on input line 484.
-(pdftex.def)             Requested size: 176.45612pt x 177.6606pt.
- [5 <./Figures/kickgas.png>]
+Package pdftex.def Info: Figures/kickgas.png  used on input line 488.
+(pdftex.def)             Requested size: 176.75723pt x 176.75723pt.
+
+Underfull \vbox (badness 2205) has occurred while \output is active []
+
+ [5 <./Figures/poco.pdf> <./Figures/kickgas.png>]
 <./Figures/fase1/tri.png, id=177, 1204.5pt x 1003.75pt>
 File: ./Figures/fase1/tri.png Graphic file (type png)
 <use ./Figures/fase1/tri.png>
-Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 518.
+Package pdftex.def Info: ./Figures/fase1/tri.png  used on input line 521.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase2/tri.png, id=178, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/tri.png Graphic file (type png)
 <use ./Figures/fase2/tri.png>
-Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 519.
+Package pdftex.def Info: ./Figures/fase2/tri.png  used on input line 522.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase2/c90.png, id=181, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/c90.png Graphic file (type png)
 <use ./Figures/fase2/c90.png>
-Package pdftex.def Info: ./Figures/fase2/c90.png  used on input line 531.
+Package pdftex.def Info: ./Figures/fase2/c90.png  used on input line 534.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 <./Figures/fase2/l80.png, id=182, 1204.5pt x 1003.75pt>
 File: ./Figures/fase2/l80.png Graphic file (type png)
 <use ./Figures/fase2/l80.png>
-Package pdftex.def Info: ./Figures/fase2/l80.png  used on input line 532.
-(pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase3/tri.png, id=183, 1204.5pt x 1003.75pt>
-File: ./Figures/fase3/tri.png Graphic file (type png)
-<use ./Figures/fase3/tri.png>
-Package pdftex.def Info: ./Figures/fase3/tri.png  used on input line 555.
-(pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase3/burst.png, id=184, 1204.5pt x 1003.75pt>
-File: ./Figures/fase3/burst.png Graphic file (type png)
-<use ./Figures/fase3/burst.png>
-Package pdftex.def Info: ./Figures/fase3/burst.png  used on input line 556.
-(pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
-<./Figures/fase3/tracao.png, id=185, 1204.5pt x 1003.75pt>
-File: ./Figures/fase3/tracao.png Graphic file (type png)
-<use ./Figures/fase3/tracao.png>
-Package pdftex.def Info: ./Figures/fase3/tracao.png  used on input line 557.
+Package pdftex.def Info: ./Figures/fase2/l80.png  used on input line 535.
 (pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./Figures/fase1/tri.png> <./Figures/fase2/tri.png> <./Figures/fase2/c90.pn
-g> <./Figures/fase2/l80.png>] (Trabalho_EngPet.bbl [7 <./Figures/fase3/tri.png>
- <./Figures/fase3/burst.png> <./Figures/fase3/tracao.png>]) [8] (Trabalho_EngPe
-t.aux)
+ [6 <./Figures/fase1/tri.png> <./Figures/fase2/tri.png>]
+<Figures/fase3/tri.png, id=196, 1204.5pt x 1003.75pt>
+File: Figures/fase3/tri.png Graphic file (type png)
+<use Figures/fase3/tri.png>
+Package pdftex.def Info: Figures/fase3/tri.png  used on input line 559.
+(pdftex.def)             Requested size: 240.89574pt x 200.74644pt.
+<./Figures/fase3/c95.png, id=198, 1204.5pt x 1003.75pt>
+File: ./Figures/fase3/c95.png Graphic file (type png)
+<use ./Figures/fase3/c95.png>
+Package pdftex.def Info: ./Figures/fase3/c95.png  used on input line 573.
+(pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
+<./Figures/fase3/c90.png, id=199, 1204.5pt x 1003.75pt>
+File: ./Figures/fase3/c90.png Graphic file (type png)
+<use ./Figures/fase3/c90.png>
+Package pdftex.def Info: ./Figures/fase3/c90.png  used on input line 574.
+(pdftex.def)             Requested size: 216.2411pt x 180.19241pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./Figures/fase2/c90.png> <./Figures/fase2/l80.png> <./Figures/fase3/tri.pn
+g>]
+(Trabalho_EngPet.bbl [8 <./Figures/fase3/c95.png> <./Figures/fase3/c90.png>])
+[9] (Trabalho_EngPet.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -685,13 +697,13 @@ Package rerunfilecheck Info: File `Trabalho_EngPet.out' has not changed.
 (rerunfilecheck)             Checksum: F1BA29FFC365AE402C3056B012CBE33E;806.
  ) 
 Here is how much of TeX's memory you used:
- 15204 strings out of 478659
- 260726 string characters out of 2845920
- 587426 words of memory out of 3000000
- 33037 multiletter control sequences out of 15000+600000
+ 15212 strings out of 478659
+ 260830 string characters out of 2845920
+ 586601 words of memory out of 3000000
+ 33043 multiletter control sequences out of 15000+600000
  416454 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,17n,63p,1227b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,63p,1227b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/obaro/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/obaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/obaro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -703,9 +715,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/obaro/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/obaro/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/obaro/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Trabalho_EngPet.pdf (8 pages, 731402 bytes).
+Output written on Trabalho_EngPet.pdf (9 pages, 795090 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
+ 279 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
